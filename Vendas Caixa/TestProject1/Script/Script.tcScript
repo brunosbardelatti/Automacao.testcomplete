@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
 	<children>
-		<child name="vendasNFCE" key="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}" path="vendasNFCE.py" />
+		<child name="finalizadorNFCE" key="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}" path="finalizadorNFCE.py" />
 		<child name="Login" key="{66D1CDBF-C7AE-4A94-BACF-2E2BDE33E391}" path="Login.py" />
 		<child name="Teste" key="{1A80B5E0-7091-4C4D-B56E-4054B2EA60B7}" path="Teste.py" />
 		<child name="LancarProduto" key="{A0B1139E-ED47-40E9-B184-10039868B4C3}" path="LancarProduto.py" />
-		<child name="Finalizador" key="{8B243433-EC67-4E1E-B907-BE6FBAC92AE5}" path="Finalizador.py" />
+		<child name="finalizadorECF" key="{8B243433-EC67-4E1E-B907-BE6FBAC92AE5}" path="finalizadorECF.py" />
 		<child name="Execucao" key="{69DF4100-9632-4900-A854-CD450BB501FF}" path="Execucao.py" />
 	</children>
 </Root>

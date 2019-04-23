@@ -1,0 +1,22 @@
+﻿def Dinheiroecf():
+  Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.btnSubtotalVenda.ClickButton()
+  Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.edtConsoleInput.Keys("[F1]")
+  Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.edtConsoleInput.Keys("[Enter]")
+  Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.btnConfirmar.Keys("[Enter]")
+  
+def Crediarioecf():
+  Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.btnSubtotalVenda.ClickButton()
+  Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.edtConsoleInput.Keys("[F8]")
+  Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.edtConsoleInput.Keys("[F4]")
+  Aliases.HiperPdv.HwndSource_BaseWindow.BaseWindow.TxtFiltro.Keys("[Enter]")
+  Aliases.HiperPdv.HwndSource_BaseWindow.BaseWindow.DgrEntidades.DatagridcellAbbocareIndStriaDeAlimentosLtd.Keys("[Enter]")
+  Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.edtConsoleInput.Keys("[Enter]")
+  Aliases.HiperPdv.HwndSource_BaseWindow.BaseWindow.btnContinuar.Keys("[F3]")
+  Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.edtConsoleInput.Keys("[Enter]")
+  Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.edtConsoleInput.Keys("2")
+  Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.edtConsoleInput.Keys("[Enter]")
+  Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.edtConsoleInput.Keys("2")
+  Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.edtConsoleInput.Keys("[Enter]")
+  Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.btnConfirmar.Keys("[Enter]")
+  Aliases.HiperPdv.HwndSource_BaseWindow2.BaseWindow.dgvPendencias.Datagridcell1.Keys("[F3]")
+  Delay(2000)

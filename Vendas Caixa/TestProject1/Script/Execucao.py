@@ -1,11 +1,11 @@
-﻿import Finalizador
+﻿import finalizadorECF
 import LancarProduto
 
 def vendaDinheiroecf():
   LancarProduto.LancarProdutoSequencia()
-  Finalizador.Dinheiroecf()
+  FinalizadorECF.Dinheiroecf()
   
 def vendaCrediarioecf():
   LancarProduto.LancarProdutoSequencia()
-  Finalizador.Crediarioecf()
+  FinalizadorECF.Crediarioecf()
   

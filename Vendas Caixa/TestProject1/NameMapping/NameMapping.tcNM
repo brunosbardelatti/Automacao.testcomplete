@@ -203,6 +203,20 @@
 														<Value PropertyType="0" Value="DgrEntidades" Type="5" />
 													</Property>
 												</Properties>
+												<Children>
+													<Child Name="DatagridcellAbbocareIndStriaDeAlimentosLtd" Key="{0EC22412-EA7E-4A3A-8C59-1DA289A2656D}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="71164847" Left="12" Top="162" Right="273" Bottom="193" />
+														<TypeInfo Item0="{CA9CFFA4-5A97-4428-9CD6-F5512A42BF63}" />
+														<Properties>
+															<Property Name="ClrFullClassName">
+																<Value PropertyType="0" Value="System.Windows.Controls.DataGridCell" Type="5" />
+															</Property>
+															<Property Name="WPFControlText">
+																<Value PropertyType="0" Value="Abbocare Indústria de Alimentos Ltda" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
 											</Child>
 											<Child Name="btnSim" Key="{7F03D150-8D3D-4F08-80F1-DEDACCF5723E}" ExtendedFind="True" ParallelWalk="True">
 												<Image FileName="1968692095" Left="101" Top="167" Right="247" Bottom="198" />
@@ -456,7 +470,9 @@
 					<Child Name="txtNome" Owner="{BD20477B-2C03-4969-B809-3DAFC5FB6BDD}" />
 					<Child Name="TxtFiltro" Owner="{B4C379B5-9753-428A-93A9-3AE8C4645566}" />
 					<Child Name="btnContinuar" Owner="{E436623E-EC06-4837-840C-2714A8F33986}" />
-					<Child Name="DgrEntidades" Owner="{FB4C0520-AA51-4B98-BAAA-B48146D3531A}" />
+					<Child Name="DgrEntidades" Owner="{FB4C0520-AA51-4B98-BAAA-B48146D3531A}">
+						<Child Name="DatagridcellAbbocareIndStriaDeAlimentosLtd" Owner="{0EC22412-EA7E-4A3A-8C59-1DA289A2656D}" />
+					</Child>
 					<Child Name="btnSim" Owner="{7F03D150-8D3D-4F08-80F1-DEDACCF5723E}" />
 					<Child Name="PnlConteudo" Owner="{C8C90397-926E-491F-B469-9BAA5A80BE38}">
 						<Child Name="btnCancelar" Owner="{B5C84BED-4F9B-4429-8A6F-E67F2A45C9B8}" />
