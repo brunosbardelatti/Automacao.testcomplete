@@ -723,6 +723,78 @@
 				<Prp name="relpath" type="S" value="23_04_2019_16_28_37_427\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
+			<Node name="log idx=0078">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43578.706683669"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A3378C40-53F1-488A-B530-300FFF5C5BC3}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Execucao\vendaDinheiroNfce]"/>
+				<Prp name="relpath" type="S" value="23_04_2019_16_57_37_469\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0079">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43578.7089585417"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{21A96306-3AE9-484F-AC80-B1143D150D1F}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Execucao\vendaDebitoNfce]"/>
+				<Prp name="relpath" type="S" value="23_04_2019_17_00_54_18\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0080">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43578.7116762963"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{3028D764-6582-41A6-8EAF-596732F3B166}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Execucao\vendaCreditoNfce]"/>
+				<Prp name="relpath" type="S" value="23_04_2019_17_04_48_832\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0081">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43578.7128666898"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{1489AB90-F6F9-4796-B769-B807F9F98759}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Execucao\vendaCreditoNfce]"/>
+				<Prp name="relpath" type="S" value="23_04_2019_17_06_31_682\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0082">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43578.7162315162"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{48FA2246-16A6-4C76-B0A2-322C21E52734}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Execucao\vendaCrediarioNfce]"/>
+				<Prp name="relpath" type="S" value="23_04_2019_17_11_22_403\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0083">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43578.7215602894"/>
+				<Prp name="description" type="S" value="Script Test Log [Execucao\vendaDinheiroNfceCpf]"/>
+				<Prp name="key" type="S" value="{EABFC18E-1C6B-4458-9E6B-D3CF2E9FA839}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Execucao\vendaDinheiroNfceCpf]"/>
+				<Prp name="relpath" type="S" value="23_04_2019_17_19_02_809\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0084">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43578.7225655903"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{78C69E19-581D-4A71-A074-C1FFB3E11E86}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Execucao\vendaDinheiroNfceCpf]"/>
+				<Prp name="relpath" type="S" value="23_04_2019_17_20_29_667\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0085">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43578.7235631713"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{85B6B866-F496-4C31-B6A0-98BE2CACAF04}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Execucao\vendaDinheiroNfceCpf]"/>
+				<Prp name="relpath" type="S" value="23_04_2019_17_21_55_858\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
