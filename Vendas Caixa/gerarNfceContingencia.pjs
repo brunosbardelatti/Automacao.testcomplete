@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{A88FB0F0-384D-40BB-9A00-D25B3093F502}">
+	<children>
+		<child name="Vendas&#32;&#32;Caixa" key="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}" path="TestProject1\Vendas&#32;&#32;Caixa.mds" />
+	</children>
+	<testItems key="{CE683F1D-0B14-4422-98F9-D8200B59506E}">
+		<children>
+			<testItem key="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{27A7357B-A5BC-4507-844C-079BAE396009}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{A23F5DE8-44AE-4D9E-B250-CD03797A3A0B}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">
+		<CrossBrowserTesting Enable="True" />
+	</extender>
+</Root>

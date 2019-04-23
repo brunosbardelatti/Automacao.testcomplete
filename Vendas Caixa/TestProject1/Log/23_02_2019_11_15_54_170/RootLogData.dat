@@ -1,0 +1,1311 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="item 22">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaCredito]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaCredito"/>
+			<Prp name="filename" type="S" value="{2E67986A-7033-4088-A845-329DC710A7AD}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{322AC4E3-E26C-467A-B612-A575DD8A684F}"/>
+			<Prp name="moniker" type="S" value="{2E67986A-7033-4088-A845-329DC710A7AD}"/>
+		</Node>
+		<Node name="item 21">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{2E67986A-7033-4088-A845-329DC710A7AD}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem3 &lt; Iteration 1 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{322AC4E3-E26C-467A-B612-A575DD8A684F}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{322AC4E3-E26C-467A-B612-A575DD8A684F}"/>
+		</Node>
+		<Node name="item 47">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{CB66B6ED-CA64-49E9-B703-67A9189A4FE6}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem4 &lt; Iteration 4 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{F7CC97F6-E911-4BE0-A8B2-B87CFD67EFB0}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{F7CC97F6-E911-4BE0-A8B2-B87CFD67EFB0}"/>
+		</Node>
+		<Node name="item 16">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaCrediario]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaCrediario"/>
+			<Prp name="filename" type="S" value="{2B715440-7F27-478C-A0FC-13D47C0D7883}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{75BFC4E9-41D4-470E-A6BE-3892C4AFB8A8}"/>
+			<Prp name="moniker" type="S" value="{2B715440-7F27-478C-A0FC-13D47C0D7883}"/>
+		</Node>
+		<Node name="item 19">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{762BE2AC-8DED-4361-B09E-578D1527FE7F}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem2 &lt; Iteration 10 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{6946754F-18E7-4945-B863-442A4A02FBA9}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{6946754F-18E7-4945-B863-442A4A02FBA9}"/>
+		</Node>
+		<Node name="item 4">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaCrediario]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaCrediario"/>
+			<Prp name="filename" type="S" value="{12E47A6A-E045-4C7C-A6A7-CB8ABCDB15B1}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{4A9CBE1D-8CCB-4F5E-B8BE-B6B6F1D126E6}"/>
+			<Prp name="moniker" type="S" value="{12E47A6A-E045-4C7C-A6A7-CB8ABCDB15B1}"/>
+		</Node>
+		<Node name="item 36">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaCredito]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaCredito"/>
+			<Prp name="filename" type="S" value="{B300CD89-C338-48A3-9ADC-096E5D69400B}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{7970BA29-57AD-4803-B8C9-473A4E7CC40E}"/>
+			<Prp name="moniker" type="S" value="{B300CD89-C338-48A3-9ADC-096E5D69400B}"/>
+		</Node>
+		<Node name="item 88">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaDinheiroCpf]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDinheiroCpf"/>
+			<Prp name="filename" type="S" value="{E97C8191-F944-435C-A1F8-B83037B3DB57}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{9C7EE1B1-3AFE-4CE1-BA6F-87A6C31F381F}"/>
+			<Prp name="moniker" type="S" value="{E97C8191-F944-435C-A1F8-B83037B3DB57}"/>
+		</Node>
+		<Node name="item 2">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaCrediario]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaCrediario"/>
+			<Prp name="filename" type="S" value="{2F2089B1-0687-4B19-9A2C-F74031BBEB14}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{ADB26327-3DD6-4E46-A9AD-F6ED4DF14E81}"/>
+			<Prp name="moniker" type="S" value="{2F2089B1-0687-4B19-9A2C-F74031BBEB14}"/>
+		</Node>
+		<Node name="item 30">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaCredito]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaCredito"/>
+			<Prp name="filename" type="S" value="{BD636991-4B21-478C-ADF9-35865361CD04}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{6174F37C-6D02-4314-B67A-BBD0FE6F628C}"/>
+			<Prp name="moniker" type="S" value="{BD636991-4B21-478C-ADF9-35865361CD04}"/>
+		</Node>
+		<Node name="item 76">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaDinheiro]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDinheiro"/>
+			<Prp name="filename" type="S" value="{28F3543B-8785-4114-BA0D-2D06842C5139}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{EB18875F-9E6A-4E7B-BBE6-104273E0B7A2}"/>
+			<Prp name="moniker" type="S" value="{28F3543B-8785-4114-BA0D-2D06842C5139}"/>
+		</Node>
+		<Node name="item 49">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{8FC349EC-26D8-4D85-9C3F-8EA5A60E9DE7}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem4 &lt; Iteration 5 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{C922D502-48D0-4E13-90C7-DCD9B45B9721}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{C922D502-48D0-4E13-90C7-DCD9B45B9721}"/>
+		</Node>
+		<Node name="item 80">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaDinheiro]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDinheiro"/>
+			<Prp name="filename" type="S" value="{C3B4E88B-7164-4CE1-99E1-A9F8230E3764}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{5CFCEE48-53AE-4CAB-AFD0-D1F166C840FA}"/>
+			<Prp name="moniker" type="S" value="{C3B4E88B-7164-4CE1-99E1-A9F8230E3764}"/>
+		</Node>
+		<Node name="item 74">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaDinheiro]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDinheiro"/>
+			<Prp name="filename" type="S" value="{02F03990-87F5-4F02-9D9E-25E4EE6FB905}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{F428EFC4-332D-4A93-9531-BEE2D4489F52}"/>
+			<Prp name="moniker" type="S" value="{02F03990-87F5-4F02-9D9E-25E4EE6FB905}"/>
+		</Node>
+		<Node name="item 71">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{87A86943-6638-48F9-BB70-1954CDE0D466}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem5 &lt; Iteration 6 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{E89EDE18-05AE-4200-86CD-35807C68CA2C}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{E89EDE18-05AE-4200-86CD-35807C68CA2C}"/>
+		</Node>
+		<Node name="item 11">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{36EFFC5E-D2FA-45DF-80CE-DCE062A7EC4B}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem2 &lt; Iteration 6 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{A56B9FEB-70D9-423E-93EC-039EE0BD84D6}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{A56B9FEB-70D9-423E-93EC-039EE0BD84D6}"/>
+		</Node>
+		<Node name="item 33">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{9D58862D-E819-402D-B7A3-17DA3BAF6930}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem3 &lt; Iteration 7 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{1C9F6890-78AC-4B1D-B67C-3D37C0FDD7A8}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{1C9F6890-78AC-4B1D-B67C-3D37C0FDD7A8}"/>
+		</Node>
+		<Node name="item 48">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaDebito]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDebito"/>
+			<Prp name="filename" type="S" value="{CB66B6ED-CA64-49E9-B703-67A9189A4FE6}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{F7CC97F6-E911-4BE0-A8B2-B87CFD67EFB0}"/>
+			<Prp name="moniker" type="S" value="{CB66B6ED-CA64-49E9-B703-67A9189A4FE6}"/>
+		</Node>
+		<Node name="item 18">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaCrediario]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaCrediario"/>
+			<Prp name="filename" type="S" value="{AE01AAC1-48B5-4A58-BA01-A2625264362A}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DCE91551-04D1-4159-8AF3-026D320351EB}"/>
+			<Prp name="moniker" type="S" value="{AE01AAC1-48B5-4A58-BA01-A2625264362A}"/>
+		</Node>
+		<Node name="item 72">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaDinheiro]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDinheiro"/>
+			<Prp name="filename" type="S" value="{87A86943-6638-48F9-BB70-1954CDE0D466}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{E89EDE18-05AE-4200-86CD-35807C68CA2C}"/>
+			<Prp name="moniker" type="S" value="{87A86943-6638-48F9-BB70-1954CDE0D466}"/>
+		</Node>
+		<Node name="item 100">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaDinheiroCpf]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDinheiroCpf"/>
+			<Prp name="filename" type="S" value="{504CF15A-C3B2-4ED1-9215-B749D2BA5F59}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{0211E152-A67E-416F-B50C-8E74B55A96F9}"/>
+			<Prp name="moniker" type="S" value="{504CF15A-C3B2-4ED1-9215-B749D2BA5F59}"/>
+		</Node>
+		<Node name="item 15">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{2B715440-7F27-478C-A0FC-13D47C0D7883}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem2 &lt; Iteration 8 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{75BFC4E9-41D4-470E-A6BE-3892C4AFB8A8}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{75BFC4E9-41D4-470E-A6BE-3892C4AFB8A8}"/>
+		</Node>
+		<Node name="item 65">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{C4E9B56A-521B-4646-A315-948B102B459E}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem5 &lt; Iteration 3 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{CB567A89-D46D-4A13-AB7D-7AEA814602F4}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{CB567A89-D46D-4A13-AB7D-7AEA814602F4}"/>
+		</Node>
+		<Node name="item 10">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaCrediario]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaCrediario"/>
+			<Prp name="filename" type="S" value="{C97EBDD0-54E4-496B-B69F-167969B809F0}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{F09D8C6A-AA1F-4270-9974-B11E021B15AF}"/>
+			<Prp name="moniker" type="S" value="{C97EBDD0-54E4-496B-B69F-167969B809F0}"/>
+		</Node>
+		<Node name="item 31">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{40E120A5-BBB5-463F-912E-FF09343EE36F}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem3 &lt; Iteration 6 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{6F8074B8-49F9-4612-A6E3-3B2EC48B5078}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{6F8074B8-49F9-4612-A6E3-3B2EC48B5078}"/>
+		</Node>
+		<Node name="item 84">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaDinheiroCpf]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDinheiroCpf"/>
+			<Prp name="filename" type="S" value="{1F34B0FD-ACE4-44BE-947F-F15E1B97450E}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{8DC57B06-EF5C-4337-94DF-F4DDBEF42D9B}"/>
+			<Prp name="moniker" type="S" value="{1F34B0FD-ACE4-44BE-947F-F15E1B97450E}"/>
+		</Node>
+		<Node name="item 43">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{BBCABA3D-B26F-495A-A678-BC243472C71D}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem4 &lt; Iteration 2 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{B941E05C-9871-41AD-B64D-F79C3179E1C4}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{B941E05C-9871-41AD-B64D-F79C3179E1C4}"/>
+		</Node>
+		<Node name="item 17">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{AE01AAC1-48B5-4A58-BA01-A2625264362A}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem2 &lt; Iteration 9 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{DCE91551-04D1-4159-8AF3-026D320351EB}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{DCE91551-04D1-4159-8AF3-026D320351EB}"/>
+		</Node>
+		<Node name="item 41">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{756A650A-9688-4E92-BD18-ED9D5E3019E8}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem4 &lt; Iteration 1 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{2765E248-FA1E-477B-B6A6-8BDA47CDD12A}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{2765E248-FA1E-477B-B6A6-8BDA47CDD12A}"/>
+		</Node>
+		<Node name="item 92">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaDinheiroCpf]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDinheiroCpf"/>
+			<Prp name="filename" type="S" value="{278B2D9F-5722-468C-92BC-1035CA6B7542}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{F04B9946-602F-48CB-9AED-8E56F0090057}"/>
+			<Prp name="moniker" type="S" value="{278B2D9F-5722-468C-92BC-1035CA6B7542}"/>
+		</Node>
+		<Node name="item 86">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaDinheiroCpf]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDinheiroCpf"/>
+			<Prp name="filename" type="S" value="{107BFCE3-835F-42C3-8FD5-DAD79F6F45F7}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{4058801A-3FA4-4FB8-8FF1-8359311798CE}"/>
+			<Prp name="moniker" type="S" value="{107BFCE3-835F-42C3-8FD5-DAD79F6F45F7}"/>
+		</Node>
+		<Node name="item 26">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaCredito]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaCredito"/>
+			<Prp name="filename" type="S" value="{30CD3D0A-DD3C-429D-BCD1-4BD2F91F2B2E}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{8764A674-BFFD-4BC0-A32A-02EA66E88B7C}"/>
+			<Prp name="moniker" type="S" value="{30CD3D0A-DD3C-429D-BCD1-4BD2F91F2B2E}"/>
+		</Node>
+		<Node name="item 52">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaDebito]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDebito"/>
+			<Prp name="filename" type="S" value="{BCDC645A-FC11-4ABF-8208-B1B32972CC0B}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{00B18ECD-EF3A-42CF-86E8-A01A94254D74}"/>
+			<Prp name="moniker" type="S" value="{BCDC645A-FC11-4ABF-8208-B1B32972CC0B}"/>
+		</Node>
+		<Node name="item 0">
+			<Node name="children">
+				<Prp name="child 31" type="S" value="{8FADEFAA-521F-4ACE-A1B8-C8C395E9F270}"/>
+				<Prp name="child 17" type="S" value="{7970BA29-57AD-4803-B8C9-473A4E7CC40E}"/>
+				<Prp name="child 10" type="S" value="{322AC4E3-E26C-467A-B612-A575DD8A684F}"/>
+				<Prp name="child 19" type="S" value="{FB4E92AB-D7EB-4A52-8BE6-3DFEBCE104D7}"/>
+				<Prp name="child 34" type="S" value="{0C08C520-A656-4A6A-9022-AFA7A0BEE599}"/>
+				<Prp name="child 44" type="S" value="{58EAC339-949F-4B60-A7BC-25A2C2823F38}"/>
+				<Prp name="child 36" type="S" value="{F428EFC4-332D-4A93-9531-BEE2D4489F52}"/>
+				<Prp name="child 33" type="S" value="{C4C6A0CE-4D0A-458F-9D67-A4297B4A1C5E}"/>
+				<Prp name="child 2" type="S" value="{8098EA5D-43D8-4E71-8952-F076CC271706}"/>
+				<Prp name="child 22" type="S" value="{E4AF6297-7E5E-48BB-BC20-495A83AB2DD3}"/>
+				<Prp name="child 18" type="S" value="{DFADF79D-1669-4CFA-8228-50FE71486274}"/>
+				<Prp name="child 5" type="S" value="{A56B9FEB-70D9-423E-93EC-039EE0BD84D6}"/>
+				<Prp name="child 8" type="S" value="{DCE91551-04D1-4159-8AF3-026D320351EB}"/>
+				<Prp name="child 27" type="S" value="{AB9A4D61-09D3-4D30-91DF-3917BC80FB95}"/>
+				<Prp name="child 28" type="S" value="{34D9D8C6-F88F-41FB-9E92-1B7AB26051E4}"/>
+				<Prp name="child 41" type="S" value="{8DC57B06-EF5C-4337-94DF-F4DDBEF42D9B}"/>
+				<Prp name="child 40" type="S" value="{7B7DB4AF-8E24-4B56-93C2-AD26DCBCA9BC}"/>
+				<Prp name="child 13" type="S" value="{655DE3AB-6120-4709-92FB-7DB3A1501D7F}"/>
+				<Prp name="child 26" type="S" value="{1EF17F1C-B82F-4CDB-9C2D-1C5A9B6AB162}"/>
+				<Prp name="child 21" type="S" value="{B941E05C-9871-41AD-B64D-F79C3179E1C4}"/>
+				<Prp name="child 6" type="S" value="{824B197A-0A7F-47E6-A139-8AF1FD64D122}"/>
+				<Prp name="child 9" type="S" value="{6946754F-18E7-4945-B863-442A4A02FBA9}"/>
+				<Prp name="child 35" type="S" value="{E89EDE18-05AE-4200-86CD-35807C68CA2C}"/>
+				<Prp name="child 39" type="S" value="{5CFCEE48-53AE-4CAB-AFD0-D1F166C840FA}"/>
+				<Prp name="child 20" type="S" value="{2765E248-FA1E-477B-B6A6-8BDA47CDD12A}"/>
+				<Prp name="child 7" type="S" value="{75BFC4E9-41D4-470E-A6BE-3892C4AFB8A8}"/>
+				<Prp name="child 15" type="S" value="{6F8074B8-49F9-4612-A6E3-3B2EC48B5078}"/>
+				<Prp name="child 29" type="S" value="{8ADB5CFC-BE55-4D92-B9FD-6F39B6C72AD6}"/>
+				<Prp name="child 3" type="S" value="{A05873DC-DC9A-4573-807C-D8F1EBDC00E1}"/>
+				<Prp name="child 0" type="S" value="{ADB26327-3DD6-4E46-A9AD-F6ED4DF14E81}"/>
+				<Prp name="child 25" type="S" value="{00B18ECD-EF3A-42CF-86E8-A01A94254D74}"/>
+				<Prp name="child 4" type="S" value="{F09D8C6A-AA1F-4270-9974-B11E021B15AF}"/>
+				<Prp name="child 14" type="S" value="{6174F37C-6D02-4314-B67A-BBD0FE6F628C}"/>
+				<Prp name="child 48" type="S" value="{C2E0F599-93D7-46DF-AED3-27BEAAF2D999}"/>
+				<Prp name="child 43" type="S" value="{9C7EE1B1-3AFE-4CE1-BA6F-87A6C31F381F}"/>
+				<Prp name="child 47" type="S" value="{263C6196-986D-4133-87D2-F6BBC3828F03}"/>
+				<Prp name="child 38" type="S" value="{E730D418-1B35-4C7D-99DE-DF0A8878B799}"/>
+				<Prp name="child 46" type="S" value="{59FE68AE-8B95-429F-AFA3-B4A48CC3FF36}"/>
+				<Prp name="child 42" type="S" value="{4058801A-3FA4-4FB8-8FF1-8359311798CE}"/>
+				<Prp name="child 37" type="S" value="{EB18875F-9E6A-4E7B-BBE6-104273E0B7A2}"/>
+				<Prp name="child 23" type="S" value="{F7CC97F6-E911-4BE0-A8B2-B87CFD67EFB0}"/>
+				<Prp name="child 11" type="S" value="{730742B1-28DA-44EA-BD63-4C984AC2312A}"/>
+				<Prp name="child 12" type="S" value="{8764A674-BFFD-4BC0-A32A-02EA66E88B7C}"/>
+				<Prp name="child 16" type="S" value="{1C9F6890-78AC-4B1D-B67C-3D37C0FDD7A8}"/>
+				<Prp name="child 24" type="S" value="{C922D502-48D0-4E13-90C7-DCD9B45B9721}"/>
+				<Prp name="child 32" type="S" value="{CB567A89-D46D-4A13-AB7D-7AEA814602F4}"/>
+				<Prp name="child 49" type="S" value="{0211E152-A67E-416F-B50C-8E74B55A96F9}"/>
+				<Prp name="child 45" type="S" value="{F04B9946-602F-48CB-9AED-8E56F0090057}"/>
+				<Prp name="child 30" type="S" value="{A39A2A6F-B4D7-48B4-92CB-40A141AD62A7}"/>
+				<Prp name="child 1" type="S" value="{4A9CBE1D-8CCB-4F5E-B8BE-B6B6F1D126E6}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Contingencia Caixa"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value=""/>
+			<Prp name="moniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+		</Node>
+		<Node name="item 45">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{76EB7B89-3D74-47F1-8D8E-0B8E8ED8DD36}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem4 &lt; Iteration 3 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{E4AF6297-7E5E-48BB-BC20-495A83AB2DD3}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{E4AF6297-7E5E-48BB-BC20-495A83AB2DD3}"/>
+		</Node>
+		<Node name="item 64">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaDinheiro]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDinheiro"/>
+			<Prp name="filename" type="S" value="{55B86289-F1D4-426E-815A-84028E79CA06}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{8FADEFAA-521F-4ACE-A1B8-C8C395E9F270}"/>
+			<Prp name="moniker" type="S" value="{55B86289-F1D4-426E-815A-84028E79CA06}"/>
+		</Node>
+		<Node name="item 8">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaCrediario]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaCrediario"/>
+			<Prp name="filename" type="S" value="{E510AFBC-CB95-455C-B417-AF4ECB1B90F6}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{A05873DC-DC9A-4573-807C-D8F1EBDC00E1}"/>
+			<Prp name="moniker" type="S" value="{E510AFBC-CB95-455C-B417-AF4ECB1B90F6}"/>
+		</Node>
+		<Node name="item 60">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaDebito]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDebito"/>
+			<Prp name="filename" type="S" value="{68A8853D-ABD7-449F-8F79-E5FD3B9CA65C}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{8ADB5CFC-BE55-4D92-B9FD-6F39B6C72AD6}"/>
+			<Prp name="moniker" type="S" value="{68A8853D-ABD7-449F-8F79-E5FD3B9CA65C}"/>
+		</Node>
+		<Node name="item 57">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{E1859B5D-7F7C-410C-BD2E-D048EEBBCE38}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem4 &lt; Iteration 9 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{34D9D8C6-F88F-41FB-9E92-1B7AB26051E4}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{34D9D8C6-F88F-41FB-9E92-1B7AB26051E4}"/>
+		</Node>
+		<Node name="item 78">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaDinheiro]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDinheiro"/>
+			<Prp name="filename" type="S" value="{23A292DB-4854-47F5-8AEF-5BB592DB857A}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{E730D418-1B35-4C7D-99DE-DF0A8878B799}"/>
+			<Prp name="moniker" type="S" value="{23A292DB-4854-47F5-8AEF-5BB592DB857A}"/>
+		</Node>
+		<Node name="item 50">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaDebito]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDebito"/>
+			<Prp name="filename" type="S" value="{8FC349EC-26D8-4D85-9C3F-8EA5A60E9DE7}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{C922D502-48D0-4E13-90C7-DCD9B45B9721}"/>
+			<Prp name="moniker" type="S" value="{8FC349EC-26D8-4D85-9C3F-8EA5A60E9DE7}"/>
+		</Node>
+		<Node name="item 77">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{23A292DB-4854-47F5-8AEF-5BB592DB857A}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem5 &lt; Iteration 9 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{E730D418-1B35-4C7D-99DE-DF0A8878B799}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{E730D418-1B35-4C7D-99DE-DF0A8878B799}"/>
+		</Node>
+		<Node name="item 99">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{504CF15A-C3B2-4ED1-9215-B749D2BA5F59}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem6 &lt; Iteration 10 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{0211E152-A67E-416F-B50C-8E74B55A96F9}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{0211E152-A67E-416F-B50C-8E74B55A96F9}"/>
+		</Node>
+		<Node name="navigationinfo">
+			<Node name="navigation 4">
+				<Prp name="name" type="S" value="Event"/>
+				<Prp name="image" type="H" value="424D3604000000000000360000002800000010000000100000000100200000000000000400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000E0A0010382700400E0A0010000000000000000000000000000000000000000000000000000000000000000000000000382700400E0A0010000000002A1D0030D99A08F8DE9B00FFD99A08F85E440A6A000000000000000000000000000000000000000000000000000000006A4D0979DE9B00FFD99A08F838270040AF7D08C8E6B43FFFFDF9EFFFEECD7FFFDE9B00FF00000000000000000000000000000000000000000000000000000000B88510D0F3D99FFFEAC05FFFDE9B00FFDE9B00FFF7E6BFFFFFFFFFFFEECD7FFFD79706F600000000000000000000000000000000000000000000000000000000B88510D0F7E6BFFFFFFFFFFFEAC05FFFE2A71FFFFFFFFFFFFFFFFFFFDF9F0EFE6F4E008000000000000000000000000000000000000000000000000000000000B88510D0F7E6BFFFFFFFFFFFFFFFFFFFFBF2DFFFFFFFFFFFF3D99FFFDE9B00FFDE9B00FFC48E0FDF2A1D00300000000000000000000000000000000000000000B88510D0F7E6BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9ECCFFFF7E6BFFFF7E6BFFFE8BA4FFFAD7F14C40000000000000000000000000000000000000000B88510D0F7E6BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9ECCFFFDF9F0EFE6A4D09790000000000000000000000000000000000000000B88510D0F7E6BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF3D99FFFDD9E0CFC976D0CAC000000000000000000000000000000000000000000000000B88510D0F7E6BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF3D99FFFDE9B00FF916806A600000000000000000000000000000000000000000000000000000000B88510D0F7E6BFFFFFFFFFFFFFFFFFFFFFFFFFFFF3D99FFFDE9B00FF916806A60000000000000000000000000000000000000000000000000000000000000000B88510D0F7E6BFFFFFFFFFFFFFFFFFFFF3D99FFFDE9B00FF916806A6000000000000000000000000000000000000000000000000000000000000000000000000B88510D0F7E6BFFFFFFFFFFFEECD7FFFDE9B00FF5E440A6A00000000000000000000000000000000000000000000000000000000000000000000000000000000B88510D0F5E0AFFFEAC05FFFDE9B00FF543A0060000000000000000000000000000000000000000000000000000000000000000000000000000000000000000077560888DE9B00FFDE9B00FF543A006000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000382700401C13002000000000000000000000000000000000000000000000000000000000000000000000000000000000"/>
+			</Node>
+			<Node name="navigation 3">
+				<Prp name="name" type="S" value="Message"/>
+				<Prp name="image" type="H" value="424D360400000000000036000000280000001000000010000000010020000000000000040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000024242450393939801D1D1D400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000323232706D6D6DF1727272FF727272FF1D1D1D40000000000000000000000000000000000000000000000000151515302B2B2B603939398039393980565656C0727272FF7F7F7FFB727272FF3232327000000000000000000000000000000000000000003B3B3B79727272EE727272FF727272FF7A7A7AFF727272FF7A7A7AFFCACACAFFC1C1C1FF727272FF0000000000000000000000000000000007070710666666D9727272FFA7A7A7FFD3D3D3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB8B8B8FF727272FF666666D9070707100000000000000000636363D67A7A7AFEDCDCDCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDCDCDCFF7A7A7AFE636363D6000000002B2B2B60727272FFDCDCDCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDCDCDCFF727272FF2B2B2B6039393980808080F3FFFFFFFFF6F6F6FF8C8C8CFFA7A7A7FFFFFFFFFFA7A7A7FFA7A7A7FFFFFFFFFFA7A7A7FF8C8C8CFFF6F6F6FFFFFFFFFF808080F33939398039393980858585EFFFFFFFFFE4E4E4FF7A7A7AFFA7A7A7FFF6F6F6FF8C8C8CFF8C8C8CFFF6F6F6FFA7A7A7FF7A7A7AFFE4E4E4FFFFFFFFFF858585EF393939802B2B2B60727272FFE4E4E4FFFFFFFFFFEDEDEDFFFFFFFFFFFFFFFFFFF6F6F6FFF6F6F6FFFFFFFFFFFFFFFFFFEDEDEDFFFFFFFFFFE4E4E4FF727272FF2B2B2B6007070710686868E4898989FCEDEDEDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEDEDEDFF898989FC686868E40707071000000000151515306F6F6FF3787878FDB8B8B8FFEDEDEDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEDEDEDFFB8B8B8FF787878FD6F6F6FF315151530000000000000000000000000070707104D4D4DA6727272FF727272FF838383FF959595FF959595FF838383FF727272FF727272FF4D4D4DA607070710000000000000000000000000000000000000000000000000070707102B2B2B60393939803939398039393980393939802B2B2B60070707100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"/>
+			</Node>
+			<Node name="navigation 2">
+				<Prp name="name" type="S" value="Success"/>
+				<Prp name="image" type="H" value="424D3604000000000000360000002800000010000000100000000100200000000000000400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000030044000850AB000C10FFF00C10FFF00C10FFF00C10FFF00850AB00030044000000000000000000000000000000000000000000000000000000000006D089000C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF006D08900000000000000000000000000000000000000000006D089000C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF006D08900000000000000000000000000030044000C10FFF00C10FFF00C10FFF00C10FFF5FD868FF8FE496FF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00300440000000000000000000850AB000C10FFF00C10FFF00C10FFF5FD868FFFFFFFFFFFFFFFFFF9FE8A5FF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00850AB0000000000000000000C10FFF00C10FFF00C10FFF5FD868FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9FE8A5FF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF000000000000000000C10FFF00C10FFF4FD459FFFFFFFFFFFFFFFFFF5FD868FF2FCC3BFFEFFBF0FFFFFFFFFF9FE8A5FF00C10FFF00C10FFF00C10FFF00C10FFF000000000000000000C10FFF00C10FFF2FCC3BFFEFFBF0FF5FD868FF00C10FFF00C10FFF2FCC3BFFEFFBF0FFFFFFFFFF9FE8A5FF00C10FFF00C10FFF00C10FFF001802200000000000C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF2FCC3BFFEFFBF0FFFFFFFFFF5FD868FF00C10FFF00C10FFF000000000000000000850AB000C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF2FCC3BFF8FE496FF00C10FFF00C10FFF00850AB000000000000000000030044000C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00300440000000000000000000000000006D089000C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF006D08900000000000000000000000000000000000000000006D089000C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF00C10FFF006D0890000000000000000000000000000000000000000000000000000000000030044000850AB000C10FFF00C10FFF00C10FFF00C10FFF00850AB0003004400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"/>
+			</Node>
+			<Node name="navigation 1">
+				<Prp name="name" type="S" value="Warning"/>
+				<Prp name="image" type="H" value="424D36040000000000003600000028000000100000001000000001002000000000000004000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000055606000E3FFFF00E3FFFF00E3FFFF00E3FFFF00E3FFFF00E3FFFF00E3FFFF00E3FFFF00E3FFFF00E3FFFF00E3FFFF00E3FFFF00E3FFFF00E3FFFF005560600072808000E3FFFF00E3FFFF00E3FFFF00E3FFFF00E3FFFF00E3FFFF00E3FFFF00E3FFFF00E3FFFF00E3FFFF00E3FFFF00E3FFFF00E3FFFF00E3FFFF00728080001C202000D6F0F000E3FFFF00E3FFFF00E3FFFF00E3FFFF00E3FFFF4E959EFF4E959EFF00E3FFFF00E3FFFF00E3FFFF00E3FFFF00E3FFFF00D6F0F0001C2020000000000072808000E3FFFF00E3FFFF00E3FFFF00E3FFFF00E3FFFF727272FF727272FF00E3FFFF00E3FFFF00E3FFFF00E3FFFF00E3FFFF007280800000000000000000000E101000D6F0F000E3FFFF00E3FFFF00E3FFFF00E3FFFF15CEE5FF15CEE5FF00E3FFFF00E3FFFF00E3FFFF00E3FFFF00D6F0F0000E10100000000000000000000000000064707000E3FFFF00E3FFFF00E3FFFF00E3FFFF32B2C2FF32B2C2FF00E3FFFF00E3FFFF00E3FFFF00E3FFFF00647070000000000000000000000000000000000000000000C7E0E000E3FFFF00E3FFFF00E3FFFF727272FF727272FF00E3FFFF00E3FFFF00E3FFFF00C7E0E00000000000000000000000000000000000000000000000000055606000E3FFFF00E3FFFF00E3FFFF727272FF727272FF00E3FFFF00E3FFFF00E3FFFF005560600000000000000000000000000000000000000000000000000000000000B9D0D000E3FFFF00E3FFFF727272FF727272FF00E3FFFF00E3FFFF00B9D0D000000000000000000000000000000000000000000000000000000000000000000039404000E3FFFF00E3FFFF39ABB9FF39ABB9FF00E3FFFF00E3FFFF0039404000000000000000000000000000000000000000000000000000000000000000000000000000ABC0C000E3FFFF00E3FFFF00E3FFFF00E3FFFF00ABC0C000000000000000000000000000000000000000000000000000000000000000000000000000000000002B303000E3FFFF00E3FFFF00E3FFFF00E3FFFF002B30300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000008EA0A000E3FFFF00E3FFFF008EA0A0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001C202000C7E0E000C7E0E0001C202000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"/>
+			</Node>
+			<Node name="navigation 0">
+				<Prp name="name" type="S" value="Error"/>
+				<Prp name="image" type="H" value="424D3604000000000000360000002800000010000000100000000100200000000000000400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000A0434401A0C8EB02611CEFF2611CEFF2611CEFF2611CEFF1A0C8EB00A04344000000000000000000000000000000000000000000000000000000000150A74902611CEFF2611CEFF2611CEFF2611CEFF2611CEFF2611CEFF2611CEFF2611CEFF150A74900000000000000000000000000000000000000000150A74902611CEFF2611CEFF2611CEFF2611CEFF2611CEFF2611CEFF2611CEFF2611CEFF2611CEFF2611CEFF180B81A00000000000000000000000000A0434402611CEFF2611CEFF2611CEFF402ED4FF331FD1FF2611CEFF2611CEFF331FD1FF402ED4FF2611CEFF2611CEFF2611CEFF0A04344000000000000000001A0C8EB02611CEFF2611CEFF402ED4FFF1F0FCFFD6D2F6FF331FD1FF331FD1FFD6D2F6FFF1F0FCFF402ED4FF2611CEFF2611CEFF1A0C8EB000000000000000002611CEFF2611CEFF2611CEFF331FD1FFD6D2F6FFFFFFFFFFD6D2F6FFD6D2F6FFFFFFFFFFD6D2F6FF331FD1FF2611CEFF2611CEFF2611CEFF00000000000000002611CEFF2611CEFF2611CEFF2611CEFF331FD1FFD6D2F6FFFFFFFFFFFFFFFFFFD6D2F6FF331FD1FF2611CEFF2611CEFF2611CEFF2611CEFF00000000000000002611CEFF2611CEFF2611CEFF2611CEFF331FD1FFD6D2F6FFFFFFFFFFFFFFFFFFD6D2F6FF331FD1FF2611CEFF2611CEFF2611CEFF2611CEFF00000000000000002611CEFF2611CEFF2611CEFF331FD1FFD6D2F6FFFFFFFFFFD6D2F6FFD6D2F6FFFFFFFFFFD6D2F6FF331FD1FF2611CEFF2611CEFF2611CEFF00000000000000001A0C8EB02611CEFF2611CEFF402ED4FFF1F0FCFFD6D2F6FF331FD1FF331FD1FFD6D2F6FFF1F0FCFF402ED4FF2611CEFF2611CEFF1A0C8EB000000000000000000A0434402611CEFF2611CEFF2611CEFF402ED4FF331FD1FF2611CEFF2611CEFF331FD1FF402ED4FF2611CEFF2611CEFF2611CEFF0A043440000000000000000000000000180B81A02611CEFF2611CEFF2611CEFF2611CEFF2611CEFF2611CEFF2611CEFF2611CEFF2611CEFF2611CEFF150A74900000000000000000000000000000000000000000150A74902611CEFF2611CEFF2611CEFF2611CEFF2611CEFF2611CEFF2611CEFF2611CEFF150A7490000000000000000000000000000000000000000000000000000000000A0434401A0C8EB02611CEFF2611CEFF2611CEFF2611CEFF1A0C8EB00A0434400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"/>
+			</Node>
+			<Node name="navigation 5">
+				<Prp name="name" type="S" value="Checkpoint"/>
+				<Prp name="image" type="H" value="424D360400000000000036000000280000001000000010000000010020000000000000040000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003004400F9419BF00C10FFF00C10FFF00C10FFF00C10FFF0F9419BF003004400000000000000000000000000000000000000000000000000000000007740F9700C10FFF3FD04AFF9FE8A5FFBFEFC3FFCFF3D2FF9FE8A5FF3FD04AFF00C10FFF067F0FA6000000000000000000000000000000000000000007740F9700C10FFF9FE8A5FFFFFFFFFFFFFFFFFFDFF7E1FFFFFFFFFFFFFFFFFFFFFFFFFF9FE8A5FF00C10FFF07740F970000000000000000000000000030044000C10FFF9FE8A5FFFFFFFFFFEFFBF0FF2FCC3BFF0FC51DFFCFF3D2FFFFFFFFFFFFFFFFFFFFFFFFFF9FE8A5FF00C10FFF0030044000000000000000000F9419BF3FD04AFFFFFFFFFFEFFBF0FF2FCC3BFF00C10FFF00C10FFF0FC51DFFCFF3D2FFFFFFFFFFFFFFFFFFFFFFFFFF3FD04AFF0F9419BF000000000000000000C10FFF9FE8A5FFEFFBF0FF2FCC3BFF00C10FFF00C10FFF00C10FFF00C10FFF0FC51DFFCFF3D2FFFFFFFFFFFFFFFFFF9FE8A5FF00C10FFF000000000000000000C10FFFBFEFC3FF4FD459FF00C10FFF00C10FFF2FCC3BFF5FD868FF00C10FFF00C10FFF0FC51DFFCFF3D2FFFFFFFFFFBFEFC3FF00C10FFF001802200000000000C10FFFBFEFC3FF6FDC77FF00C10FFF2FCC3BFFEFFBF0FFFFFFFFFF5FD868FF00C10FFF00C10FFF0FC51DFFCFF3D2FFBFEFC3FF00C10FFF000000000000000000C10FFF9FE8A5FFFFFFFFFFBFEFC3FFEFFBF0FFFFFFFFFFFFFFFFFFFFFFFFFF5FD868FF00C10FFF00C10FFF3FD04AFF9FE8A5FF00C10FFF00000000000000000F9419BF3FD04AFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5FD868FF0FC51DFFCFF3D2FF3FD04AFF0F9419BF00000000000000000030044000C10FFF9FE8A5FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9FE8A5FF00C10FFF0030044000000000000000000000000007740F9700C10FFF9FE8A5FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF9FE8A5FF00C10FFF067F0FA60000000000000000000000000000000000000000067F0FA600C10FFF3FD04AFF9FE8A5FFBFEFC3FFBFEFC3FF9FE8A5FF3FD04AFF00C10FFF07740F9700000000000000000000000000000000000000000000000000000000003004400F9419BF00C10FFF00C10FFF00C10FFF00C10FFF0F9419BF003004400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"/>
+			</Node>
+		</Node>
+		<Node name="item 39">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{6FA56CF9-5150-45A3-A610-5D84EE7E87FD}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem3 &lt; Iteration 10 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{FB4E92AB-D7EB-4A52-8BE6-3DFEBCE104D7}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{FB4E92AB-D7EB-4A52-8BE6-3DFEBCE104D7}"/>
+		</Node>
+		<Node name="item 95">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{4C1ED8ED-F053-4D2C-809B-DF879680CDFC}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem6 &lt; Iteration 8 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{263C6196-986D-4133-87D2-F6BBC3828F03}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{263C6196-986D-4133-87D2-F6BBC3828F03}"/>
+		</Node>
+		<Node name="item 38">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaCredito]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaCredito"/>
+			<Prp name="filename" type="S" value="{85121644-055E-4EFA-A104-100A05C44A7F}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DFADF79D-1669-4CFA-8228-50FE71486274}"/>
+			<Prp name="moniker" type="S" value="{85121644-055E-4EFA-A104-100A05C44A7F}"/>
+		</Node>
+		<Node name="item 69">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{1ECF9C1D-344B-4805-A8A3-876959100579}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem5 &lt; Iteration 5 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{0C08C520-A656-4A6A-9022-AFA7A0BEE599}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{0C08C520-A656-4A6A-9022-AFA7A0BEE599}"/>
+		</Node>
+		<Node name="item 90">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaDinheiroCpf]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDinheiroCpf"/>
+			<Prp name="filename" type="S" value="{3072F0BA-C237-467D-804B-463E65DDEB8D}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{58EAC339-949F-4B60-A7BC-25A2C2823F38}"/>
+			<Prp name="moniker" type="S" value="{3072F0BA-C237-467D-804B-463E65DDEB8D}"/>
+		</Node>
+		<Node name="item 34">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaCredito]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaCredito"/>
+			<Prp name="filename" type="S" value="{9D58862D-E819-402D-B7A3-17DA3BAF6930}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{1C9F6890-78AC-4B1D-B67C-3D37C0FDD7A8}"/>
+			<Prp name="moniker" type="S" value="{9D58862D-E819-402D-B7A3-17DA3BAF6930}"/>
+		</Node>
+		<Node name="item 35">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{B300CD89-C338-48A3-9ADC-096E5D69400B}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem3 &lt; Iteration 8 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{7970BA29-57AD-4803-B8C9-473A4E7CC40E}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{7970BA29-57AD-4803-B8C9-473A4E7CC40E}"/>
+		</Node>
+		<Node name="item 85">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{107BFCE3-835F-42C3-8FD5-DAD79F6F45F7}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem6 &lt; Iteration 3 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{4058801A-3FA4-4FB8-8FF1-8359311798CE}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{4058801A-3FA4-4FB8-8FF1-8359311798CE}"/>
+		</Node>
+		<Node name="item 55">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{B83727E4-A9E8-4561-806B-340408510F96}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem4 &lt; Iteration 8 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{AB9A4D61-09D3-4D30-91DF-3917BC80FB95}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{AB9A4D61-09D3-4D30-91DF-3917BC80FB95}"/>
+		</Node>
+		<Node name="item 83">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{1F34B0FD-ACE4-44BE-947F-F15E1B97450E}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem6 &lt; Iteration 2 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{8DC57B06-EF5C-4337-94DF-F4DDBEF42D9B}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{8DC57B06-EF5C-4337-94DF-F4DDBEF42D9B}"/>
+		</Node>
+		<Node name="item 28">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaCredito]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaCredito"/>
+			<Prp name="filename" type="S" value="{FA395988-C943-483F-940C-F605D576FF8E}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{655DE3AB-6120-4709-92FB-7DB3A1501D7F}"/>
+			<Prp name="moniker" type="S" value="{FA395988-C943-483F-940C-F605D576FF8E}"/>
+		</Node>
+		<Node name="item 79">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{C3B4E88B-7164-4CE1-99E1-A9F8230E3764}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem5 &lt; Iteration 10 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{5CFCEE48-53AE-4CAB-AFD0-D1F166C840FA}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{5CFCEE48-53AE-4CAB-AFD0-D1F166C840FA}"/>
+		</Node>
+		<Node name="item 24">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaCredito]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaCredito"/>
+			<Prp name="filename" type="S" value="{633E318A-3B2F-44AC-8358-A5F24835FB08}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{730742B1-28DA-44EA-BD63-4C984AC2312A}"/>
+			<Prp name="moniker" type="S" value="{633E318A-3B2F-44AC-8358-A5F24835FB08}"/>
+		</Node>
+		<Node name="item 44">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaDebito]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDebito"/>
+			<Prp name="filename" type="S" value="{BBCABA3D-B26F-495A-A678-BC243472C71D}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{B941E05C-9871-41AD-B64D-F79C3179E1C4}"/>
+			<Prp name="moniker" type="S" value="{BBCABA3D-B26F-495A-A678-BC243472C71D}"/>
+		</Node>
+		<Node name="item 97">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{76D9D884-82BD-4BDF-8C8C-6FF19E26F36B}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem6 &lt; Iteration 9 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{C2E0F599-93D7-46DF-AED3-27BEAAF2D999}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{C2E0F599-93D7-46DF-AED3-27BEAAF2D999}"/>
+		</Node>
+		<Node name="item 40">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaCredito]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaCredito"/>
+			<Prp name="filename" type="S" value="{6FA56CF9-5150-45A3-A610-5D84EE7E87FD}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{FB4E92AB-D7EB-4A52-8BE6-3DFEBCE104D7}"/>
+			<Prp name="moniker" type="S" value="{6FA56CF9-5150-45A3-A610-5D84EE7E87FD}"/>
+		</Node>
+		<Node name="item 62">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaDinheiro]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDinheiro"/>
+			<Prp name="filename" type="S" value="{D3295EB2-628E-4546-9EB3-9DD89A664495}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{A39A2A6F-B4D7-48B4-92CB-40A141AD62A7}"/>
+			<Prp name="moniker" type="S" value="{D3295EB2-628E-4546-9EB3-9DD89A664495}"/>
+		</Node>
+		<Node name="item 63">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{55B86289-F1D4-426E-815A-84028E79CA06}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem5 &lt; Iteration 2 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{8FADEFAA-521F-4ACE-A1B8-C8C395E9F270}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{8FADEFAA-521F-4ACE-A1B8-C8C395E9F270}"/>
+		</Node>
+		<Node name="item 81">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{B459DCDA-777C-44B7-984D-2655A03BAEA4}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem6 &lt; Iteration 1 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{7B7DB4AF-8E24-4B56-93C2-AD26DCBCA9BC}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{7B7DB4AF-8E24-4B56-93C2-AD26DCBCA9BC}"/>
+		</Node>
+		<Node name="item 54">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaDebito]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDebito"/>
+			<Prp name="filename" type="S" value="{FEA59720-D414-48E3-8E82-923B2E743C1C}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{1EF17F1C-B82F-4CDB-9C2D-1C5A9B6AB162}"/>
+			<Prp name="moniker" type="S" value="{FEA59720-D414-48E3-8E82-923B2E743C1C}"/>
+		</Node>
+		<Node name="item 75">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{28F3543B-8785-4114-BA0D-2D06842C5139}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem5 &lt; Iteration 8 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{EB18875F-9E6A-4E7B-BBE6-104273E0B7A2}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{EB18875F-9E6A-4E7B-BBE6-104273E0B7A2}"/>
+		</Node>
+		<Node name="item 23">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{633E318A-3B2F-44AC-8358-A5F24835FB08}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem3 &lt; Iteration 2 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{730742B1-28DA-44EA-BD63-4C984AC2312A}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{730742B1-28DA-44EA-BD63-4C984AC2312A}"/>
+		</Node>
+		<Node name="item 20">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaCrediario]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaCrediario"/>
+			<Prp name="filename" type="S" value="{762BE2AC-8DED-4361-B09E-578D1527FE7F}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{6946754F-18E7-4945-B863-442A4A02FBA9}"/>
+			<Prp name="moniker" type="S" value="{762BE2AC-8DED-4361-B09E-578D1527FE7F}"/>
+		</Node>
+		<Node name="item 70">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaDinheiro]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDinheiro"/>
+			<Prp name="filename" type="S" value="{1ECF9C1D-344B-4805-A8A3-876959100579}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{0C08C520-A656-4A6A-9022-AFA7A0BEE599}"/>
+			<Prp name="moniker" type="S" value="{1ECF9C1D-344B-4805-A8A3-876959100579}"/>
+		</Node>
+		<Node name="item 67">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{16BEB956-D8F4-4694-998C-215CCF56D6B5}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem5 &lt; Iteration 4 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{C4C6A0CE-4D0A-458F-9D67-A4297B4A1C5E}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{C4C6A0CE-4D0A-458F-9D67-A4297B4A1C5E}"/>
+		</Node>
+		<Node name="item 93">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{8493B786-EAE3-4802-A079-D26BC55C1D02}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem6 &lt; Iteration 7 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{59FE68AE-8B95-429F-AFA3-B4A48CC3FF36}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{59FE68AE-8B95-429F-AFA3-B4A48CC3FF36}"/>
+		</Node>
+		<Node name="item 12">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaCrediario]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaCrediario"/>
+			<Prp name="filename" type="S" value="{36EFFC5E-D2FA-45DF-80CE-DCE062A7EC4B}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{A56B9FEB-70D9-423E-93EC-039EE0BD84D6}"/>
+			<Prp name="moniker" type="S" value="{36EFFC5E-D2FA-45DF-80CE-DCE062A7EC4B}"/>
+		</Node>
+		<Node name="item 9">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{C97EBDD0-54E4-496B-B69F-167969B809F0}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem2 &lt; Iteration 5 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{F09D8C6A-AA1F-4270-9974-B11E021B15AF}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{F09D8C6A-AA1F-4270-9974-B11E021B15AF}"/>
+		</Node>
+		<Node name="item 32">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaCredito]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaCredito"/>
+			<Prp name="filename" type="S" value="{40E120A5-BBB5-463F-912E-FF09343EE36F}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{6F8074B8-49F9-4612-A6E3-3B2EC48B5078}"/>
+			<Prp name="moniker" type="S" value="{40E120A5-BBB5-463F-912E-FF09343EE36F}"/>
+		</Node>
+		<Node name="item 89">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{3072F0BA-C237-467D-804B-463E65DDEB8D}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem6 &lt; Iteration 5 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{58EAC339-949F-4B60-A7BC-25A2C2823F38}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{58EAC339-949F-4B60-A7BC-25A2C2823F38}"/>
+		</Node>
+		<Node name="item 5">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{ADB2B1AA-B4E4-45B5-9165-15CC66D49E7A}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem2 &lt; Iteration 3 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{8098EA5D-43D8-4E71-8952-F076CC271706}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{8098EA5D-43D8-4E71-8952-F076CC271706}"/>
+		</Node>
+		<Node name="item 59">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{68A8853D-ABD7-449F-8F79-E5FD3B9CA65C}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem4 &lt; Iteration 10 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{8ADB5CFC-BE55-4D92-B9FD-6F39B6C72AD6}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{8ADB5CFC-BE55-4D92-B9FD-6F39B6C72AD6}"/>
+		</Node>
+		<Node name="item 87">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{E97C8191-F944-435C-A1F8-B83037B3DB57}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem6 &lt; Iteration 4 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{9C7EE1B1-3AFE-4CE1-BA6F-87A6C31F381F}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{9C7EE1B1-3AFE-4CE1-BA6F-87A6C31F381F}"/>
+		</Node>
+		<Node name="item 61">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{D3295EB2-628E-4546-9EB3-9DD89A664495}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem5 &lt; Iteration 1 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{A39A2A6F-B4D7-48B4-92CB-40A141AD62A7}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{A39A2A6F-B4D7-48B4-92CB-40A141AD62A7}"/>
+		</Node>
+		<Node name="item 29">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{BD636991-4B21-478C-ADF9-35865361CD04}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem3 &lt; Iteration 5 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{6174F37C-6D02-4314-B67A-BBD0FE6F628C}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{6174F37C-6D02-4314-B67A-BBD0FE6F628C}"/>
+		</Node>
+		<Node name="item 51">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{BCDC645A-FC11-4ABF-8208-B1B32972CC0B}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem4 &lt; Iteration 6 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{00B18ECD-EF3A-42CF-86E8-A01A94254D74}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{00B18ECD-EF3A-42CF-86E8-A01A94254D74}"/>
+		</Node>
+		<Node name="item 98">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaDinheiroCpf]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDinheiroCpf"/>
+			<Prp name="filename" type="S" value="{76D9D884-82BD-4BDF-8C8C-6FF19E26F36B}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{C2E0F599-93D7-46DF-AED3-27BEAAF2D999}"/>
+			<Prp name="moniker" type="S" value="{76D9D884-82BD-4BDF-8C8C-6FF19E26F36B}"/>
+		</Node>
+		<Node name="item 46">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaDebito]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDebito"/>
+			<Prp name="filename" type="S" value="{76EB7B89-3D74-47F1-8D8E-0B8E8ED8DD36}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{E4AF6297-7E5E-48BB-BC20-495A83AB2DD3}"/>
+			<Prp name="moniker" type="S" value="{76EB7B89-3D74-47F1-8D8E-0B8E8ED8DD36}"/>
+		</Node>
+		<Node name="item 96">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaDinheiroCpf]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDinheiroCpf"/>
+			<Prp name="filename" type="S" value="{4C1ED8ED-F053-4D2C-809B-DF879680CDFC}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{263C6196-986D-4133-87D2-F6BBC3828F03}"/>
+			<Prp name="moniker" type="S" value="{4C1ED8ED-F053-4D2C-809B-DF879680CDFC}"/>
+		</Node>
+		<Node name="item 6">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaCrediario]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaCrediario"/>
+			<Prp name="filename" type="S" value="{ADB2B1AA-B4E4-45B5-9165-15CC66D49E7A}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{8098EA5D-43D8-4E71-8952-F076CC271706}"/>
+			<Prp name="moniker" type="S" value="{ADB2B1AA-B4E4-45B5-9165-15CC66D49E7A}"/>
+		</Node>
+		<Node name="item 53">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{FEA59720-D414-48E3-8E82-923B2E743C1C}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem4 &lt; Iteration 7 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{1EF17F1C-B82F-4CDB-9C2D-1C5A9B6AB162}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{1EF17F1C-B82F-4CDB-9C2D-1C5A9B6AB162}"/>
+		</Node>
+		<Node name="item 1">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{2F2089B1-0687-4B19-9A2C-F74031BBEB14}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem2 &lt; Iteration 1 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{ADB26327-3DD6-4E46-A9AD-F6ED4DF14E81}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{ADB26327-3DD6-4E46-A9AD-F6ED4DF14E81}"/>
+		</Node>
+		<Node name="item 27">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{FA395988-C943-483F-940C-F605D576FF8E}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem3 &lt; Iteration 4 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{655DE3AB-6120-4709-92FB-7DB3A1501D7F}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{655DE3AB-6120-4709-92FB-7DB3A1501D7F}"/>
+		</Node>
+		<Node name="item 82">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaDinheiroCpf]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDinheiroCpf"/>
+			<Prp name="filename" type="S" value="{B459DCDA-777C-44B7-984D-2655A03BAEA4}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{7B7DB4AF-8E24-4B56-93C2-AD26DCBCA9BC}"/>
+			<Prp name="moniker" type="S" value="{B459DCDA-777C-44B7-984D-2655A03BAEA4}"/>
+		</Node>
+		<Node name="item 3">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{12E47A6A-E045-4C7C-A6A7-CB8ABCDB15B1}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem2 &lt; Iteration 2 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{4A9CBE1D-8CCB-4F5E-B8BE-B6B6F1D126E6}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{4A9CBE1D-8CCB-4F5E-B8BE-B6B6F1D126E6}"/>
+		</Node>
+		<Node name="item 25">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{30CD3D0A-DD3C-429D-BCD1-4BD2F91F2B2E}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem3 &lt; Iteration 3 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{8764A674-BFFD-4BC0-A32A-02EA66E88B7C}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{8764A674-BFFD-4BC0-A32A-02EA66E88B7C}"/>
+		</Node>
+		<Node name="item 42">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaDebito]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDebito"/>
+			<Prp name="filename" type="S" value="{756A650A-9688-4E92-BD18-ED9D5E3019E8}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{2765E248-FA1E-477B-B6A6-8BDA47CDD12A}"/>
+			<Prp name="moniker" type="S" value="{756A650A-9688-4E92-BD18-ED9D5E3019E8}"/>
+		</Node>
+		<Node name="item 73">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{02F03990-87F5-4F02-9D9E-25E4EE6FB905}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem5 &lt; Iteration 7 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{F428EFC4-332D-4A93-9531-BEE2D4489F52}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{F428EFC4-332D-4A93-9531-BEE2D4489F52}"/>
+		</Node>
+		<Node name="item 94">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaDinheiroCpf]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDinheiroCpf"/>
+			<Prp name="filename" type="S" value="{8493B786-EAE3-4802-A079-D26BC55C1D02}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{59FE68AE-8B95-429F-AFA3-B4A48CC3FF36}"/>
+			<Prp name="moniker" type="S" value="{8493B786-EAE3-4802-A079-D26BC55C1D02}"/>
+		</Node>
+		<Node name="item 68">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaDinheiro]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDinheiro"/>
+			<Prp name="filename" type="S" value="{16BEB956-D8F4-4694-998C-215CCF56D6B5}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{C4C6A0CE-4D0A-458F-9D67-A4297B4A1C5E}"/>
+			<Prp name="moniker" type="S" value="{16BEB956-D8F4-4694-998C-215CCF56D6B5}"/>
+		</Node>
+		<Node name="item 14">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaCrediario]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaCrediario"/>
+			<Prp name="filename" type="S" value="{9500E4BA-7899-4AF6-81E6-C35608E00EBB}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{824B197A-0A7F-47E6-A139-8AF1FD64D122}"/>
+			<Prp name="moniker" type="S" value="{9500E4BA-7899-4AF6-81E6-C35608E00EBB}"/>
+		</Node>
+		<Node name="item 66">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaDinheiro]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDinheiro"/>
+			<Prp name="filename" type="S" value="{C4E9B56A-521B-4646-A315-948B102B459E}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{CB567A89-D46D-4A13-AB7D-7AEA814602F4}"/>
+			<Prp name="moniker" type="S" value="{C4E9B56A-521B-4646-A315-948B102B459E}"/>
+		</Node>
+		<Node name="item 37">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{85121644-055E-4EFA-A104-100A05C44A7F}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem3 &lt; Iteration 9 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{DFADF79D-1669-4CFA-8228-50FE71486274}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{DFADF79D-1669-4CFA-8228-50FE71486274}"/>
+		</Node>
+		<Node name="item 13">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{9500E4BA-7899-4AF6-81E6-C35608E00EBB}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem2 &lt; Iteration 7 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{824B197A-0A7F-47E6-A139-8AF1FD64D122}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{824B197A-0A7F-47E6-A139-8AF1FD64D122}"/>
+		</Node>
+		<Node name="item 91">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{278B2D9F-5722-468C-92BC-1035CA6B7542}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem6 &lt; Iteration 6 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{F04B9946-602F-48CB-9AED-8E56F0090057}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{F04B9946-602F-48CB-9AED-8E56F0090057}"/>
+		</Node>
+		<Node name="item 7">
+			<Node name="children">
+				<Prp name="child 0" type="S" value="{E510AFBC-CB95-455C-B417-AF4ECB1B90F6}"/>
+			</Node>
+			<Prp name="persistentdatakey" type="S" value="{74D0AECC-37DB-4F6C-AC1E-26EA65F436C7}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="ProjectTestItem2 &lt; Iteration 4 &gt;"/>
+			<Prp name="test" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="filename" type="S" value="{A05873DC-DC9A-4573-807C-D8F1EBDC00E1}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{DC562754-FDB0-45EE-81F4-88F150AEC577}"/>
+			<Prp name="moniker" type="S" value="{A05873DC-DC9A-4573-807C-D8F1EBDC00E1}"/>
+		</Node>
+		<Node name="item 58">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaDebito]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDebito"/>
+			<Prp name="filename" type="S" value="{E1859B5D-7F7C-410C-BD2E-D048EEBBCE38}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{34D9D8C6-F88F-41FB-9E92-1B7AB26051E4}"/>
+			<Prp name="moniker" type="S" value="{E1859B5D-7F7C-410C-BD2E-D048EEBBCE38}"/>
+		</Node>
+		<Node name="item 56">
+			<Node name="children"/>
+			<Prp name="persistentdatakey" type="S" value="{C0A16E40-A745-4685-B1CC-65EC03A4C819}"/>
+			<Prp name="status" type="I" value="0"/>
+			<Prp name="name" type="S" value="Script Test Log [vendas\vendaDebito]"/>
+			<Prp name="test" type="S" value="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDebito"/>
+			<Prp name="filename" type="S" value="{B83727E4-A9E8-4561-806B-340408510F96}"/>
+			<Prp name="projectkey" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
+			<Prp name="ownermoniker" type="S" value="{AB9A4D61-09D3-4D30-91DF-3917BC80FB95}"/>
+			<Prp name="moniker" type="S" value="{B83727E4-A9E8-4561-806B-340408510F96}"/>
+		</Node>
+	</Node>
+</Nodes>

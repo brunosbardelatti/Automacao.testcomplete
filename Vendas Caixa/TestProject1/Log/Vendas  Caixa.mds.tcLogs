@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43519.4425664352"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{B82613F4-E886-49C6-AAC1-D0B12DE62C3E}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="23_02_2019_10_37_17_740\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43519.4431512616"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{E0225596-FBDB-482A-8B56-E3364E83C65F}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="23_02_2019_10_38_08_269\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43519.4693769676"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A035D14C-016B-4E60-BFF9-8890EE75460C}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="23_02_2019_11_15_54_170\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0003">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43522.7092265625"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{D325247D-413A-4840-9113-5FC737216C7A}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="26_02_2019_17_01_17_175\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0004">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43522.7114206481"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8BB96791-5E88-4C3C-9BDB-19967672B14F}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="26_02_2019_17_04_26_744\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0005">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43522.7634339699"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8FAEADD3-5210-4452-9709-F336B71E59A9}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="26_02_2019_18_19_20_695\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0006">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43522.7653612037"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{9802E689-0A69-4D9D-97A5-6D5FA2388546}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="26_02_2019_18_22_07_208\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0007">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43532.3995041667"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{7106B716-2DA9-4FE4-9DE2-89E440C2625C}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="08_03_2019_09_35_17_160\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0008">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43532.569734537"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{56B7D386-B68E-45FE-A1C0-528BAA91AA87}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [vendas\vendaDinheiroCpf]"/>
+				<Prp name="relpath" type="S" value="08_03_2019_13_40_25_64\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0009">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43532.5699809144"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8A9ADE6F-1200-4F94-B336-2026CD262365}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="08_03_2019_13_40_46_351\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0010">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43535.6311611458"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{B6A950B9-BF07-4926-B0A4-4134A4E8D26C}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="11_03_2019_15_08_52_323\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0011">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43535.6315100926"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8A78723F-9186-4DEF-BDBB-80A6DEA66EE8}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="11_03_2019_15_09_22_472\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0012">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43535.6318039005"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{CAFCF673-281D-4594-97A2-FDBF0B58B8AC}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="11_03_2019_15_09_47_857\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0013">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43535.6345758333"/>
+				<Prp name="description" type="S" value="Contingencia Caixa"/>
+				<Prp name="key" type="S" value="{BD100429-A16A-4EDD-94A6-B48B415180C6}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="11_03_2019_15_13_47_352\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0014">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43535.6502830671"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{5384ACC7-CCB4-4D92-B7AE-201D5F9D6FB3}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [vendas\vendaDinheiroCpf]"/>
+				<Prp name="relpath" type="S" value="11_03_2019_15_36_24_457\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0015">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43535.6507804167"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A9240349-1359-48DB-8DB8-E6F27E52CFE2}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="11_03_2019_15_37_07_428\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0016">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43537.3554128588"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{E2210DCE-25F4-4DDA-A85A-A73FEFF1563A}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="13_03_2019_08_31_47_671\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0017">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43537.3564565741"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{5DC80CC6-BE6A-4228-97FB-18E7916B46CC}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="13_03_2019_08_33_17_848\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0018">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43539.4212585648"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F1CDD153-4B82-4C0F-AD88-704DD366B5B6}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="15_03_2019_10_06_36_740\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0019">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43539.4948790394"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{55C76E83-769B-4330-8D5C-F8EC233DE970}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="15_03_2019_11_52_37_549\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0020">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43564.463378831"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{B7A82C98-38CA-48CB-B841-EA84C15FDACB}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="09_04_2019_11_07_15_931\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0021">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43566.7060803935"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{48440B4C-907C-49E5-BAB6-1348A1A4A239}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="11_04_2019_16_56_45_346\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0022">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43566.7075381944"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{D54225EA-826C-4AE8-A6D0-55497E056FA2}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="11_04_2019_16_58_51_300\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0023">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43566.7080063657"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{6C3788F9-A480-4D6C-ADC6-0417581D94D1}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="11_04_2019_16_59_31_750\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0024">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43566.7086814468"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{CFEFE5CC-ABEF-4FAF-9742-7D7F09D7BC1E}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="11_04_2019_17_00_30_77\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0025">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43566.7122114583"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A7CEC2AF-BE82-475F-BF53-428C0D17F78D}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="11_04_2019_17_05_35_70\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0026">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43566.7144792477"/>
+				<Prp name="description" type="S" value="Contingencia Caixa"/>
+				<Prp name="key" type="S" value="{09BAEBF7-0173-4442-9203-AAD629575303}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="11_04_2019_17_08_51_7\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0027">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43566.7365347338"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F76C5530-B6F8-4231-8ACA-143C51370B24}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="11_04_2019_17_40_36_601\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0028">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43566.7495815509"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{3ED3745A-911C-4340-A95A-580505FBF3A4}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="11_04_2019_17_59_23_846\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0029">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43572.3830890278"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F356619A-ECE4-4F43-8037-D1ACE8AA1319}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="17_04_2019_09_11_38_892\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0030">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43572.3939658102"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{7D114520-AB71-4AA1-8325-B5FE740FDBFA}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [vendas\vendaDinheiroCpf]"/>
+				<Prp name="relpath" type="S" value="17_04_2019_09_27_18_646\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0031">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43572.4389577778"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{3075E1D1-C364-4553-B807-86E8E5E1B1E3}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="17_04_2019_10_32_05_952\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0032">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43572.4405829167"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{33AA6ECE-EBBD-4B5B-B4C4-25754230698A}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="17_04_2019_10_34_26_364\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0033">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43572.6304705208"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{9AB20412-9B34-476A-AF99-5B7A1CB25B36}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="17_04_2019_15_07_52_653\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0034">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43573.3885372454"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8B8818CD-3D82-42CD-8FDB-004026262445}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Teste\LancarProduto]"/>
+				<Prp name="relpath" type="S" value="18_04_2019_09_19_29_618\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0035">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43573.3957031018"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{FD59C94B-E698-4363-AC6C-9D058830CCC6}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Teste\LancarProduto]"/>
+				<Prp name="relpath" type="S" value="18_04_2019_09_29_48_748\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0036">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43573.4383680556"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{02CCA0D0-D141-45DC-8745-ABE61FB1E483}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [LancarProduto\LancarProduto]"/>
+				<Prp name="relpath" type="S" value="18_04_2019_10_31_15_0\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0037">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43573.4597299653"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{7E368C55-16B2-4D68-BB47-E3562C092A36}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="18_04_2019_11_02_00_669\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0038">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43573.4658602662"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{D679051B-44B1-437B-8169-84F02EAACC61}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="18_04_2019_11_10_50_327\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0039">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43573.4840541667"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{D006201F-4288-48B2-B47B-48B061619509}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Teste\Test1]"/>
+				<Prp name="relpath" type="S" value="18_04_2019_11_37_02_280\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0040">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43573.4878499884"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{7223E02B-D692-4C1A-ACC7-5BCA7387A994}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Teste\debitoNFCe]"/>
+				<Prp name="relpath" type="S" value="18_04_2019_11_42_30_239\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0041">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43573.4930721296"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{01B25F81-BDF5-4197-9F0F-9A620DFBA799}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="18_04_2019_11_50_01_432\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0042">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43573.4983135185"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F793079D-9B89-46AE-8C84-CA2F2D76FB6E}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="18_04_2019_11_57_34_288\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0043">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43573.6308586111"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{FA104331-67FE-4764-8E7A-5017FC4F6D03}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="18_04_2019_15_08_26_184\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0044">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43573.6371196296"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{1D76E5A3-BEF0-4801-91B6-4BB3DC78C062}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="18_04_2019_15_17_27_136\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0045">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43573.6649469907"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{D4195851-FF14-4E28-BC02-C88D8DE98B42}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="18_04_2019_15_57_31_420\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0046">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43573.6701796181"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{9A09CE02-7862-42F9-A1B1-6C1CA483603A}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [LancarProduto\LancarProduto]"/>
+				<Prp name="relpath" type="S" value="18_04_2019_16_05_03_519\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0047">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43573.6704535764"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{740DDBFF-D4CF-4311-8F29-3F0C2EA970A2}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [LancarProduto\LancarProduto]"/>
+				<Prp name="relpath" type="S" value="18_04_2019_16_05_27_189\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0048">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43577.4405671528"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{48BBAADC-A6FF-4A2E-A046-F4DCA952FBD6}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="22_04_2019_10_34_25_2\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0049">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43577.4416548727"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{0816D270-13D4-44A2-BB84-FB83E6F8ECF0}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="22_04_2019_10_35_58_981\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0050">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43577.7089888889"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{801CA8EC-50EA-49F5-A68F-D417E47C60B5}"/>
+				<Prp name="nameofroot" type="S" value="Contingencia Caixa"/>
+				<Prp name="relpath" type="S" value="22_04_2019_17_00_56_640\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0051">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43578.3738755556"/>
+				<Prp name="description" type="S" value="Vendas  Caixa"/>
+				<Prp name="key" type="S" value="{D70D266E-506B-4535-BCE2-B113F76ECED3}"/>
+				<Prp name="nameofroot" type="S" value="Vendas  Caixa"/>
+				<Prp name="relpath" type="S" value="23_04_2019_08_58_22_848\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0052">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43578.4485203935"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{CE7FDB06-B219-454C-BFDE-12071F596085}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Teste\test2]"/>
+				<Prp name="relpath" type="S" value="23_04_2019_10_45_52_162\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0053">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43578.4491015278"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{9DA5ED45-7D47-4487-9545-D4686C5E287B}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Teste\test2]"/>
+				<Prp name="relpath" type="S" value="23_04_2019_10_46_42_372\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0054">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43578.4546883449"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{0C7737C4-148F-4E2A-9C38-BD05CB58A1AF}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Teste\test2]"/>
+				<Prp name="relpath" type="S" value="23_04_2019_10_54_45_73\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0055">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43578.4549140393"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{C3E31EBB-A1E1-4B9F-BBDF-6A91FB08659C}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Teste\test2]"/>
+				<Prp name="relpath" type="S" value="23_04_2019_10_55_04_573\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0056">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43578.4551068518"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{82E0B6B0-362B-4A41-B7A5-26C5C4C457F4}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Teste\test2]"/>
+				<Prp name="relpath" type="S" value="23_04_2019_10_55_21_232\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0057">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43578.4557114815"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{BE8CB396-98AA-4B98-9997-6DE337B3F849}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Teste\test2]"/>
+				<Prp name="relpath" type="S" value="23_04_2019_10_56_13_472\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0058">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43578.4562809375"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{DD11FBC3-1403-4409-B262-24F0E1AEEDBA}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Teste\test2]"/>
+				<Prp name="relpath" type="S" value="23_04_2019_10_57_02_673\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0059">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43578.4566540856"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{71050857-C609-4F94-885F-3190C4838836}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Teste\test2]"/>
+				<Prp name="relpath" type="S" value="23_04_2019_10_57_34_913\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0060">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43578.4570256713"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{E6731F08-B1BA-426A-9178-5893C936A1FA}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Teste\test2]"/>
+				<Prp name="relpath" type="S" value="23_04_2019_10_58_07_18\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0061">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43578.4572810995"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{A6AE8C8D-4CAA-4FE8-A291-28EB24448E7F}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Teste\test2]"/>
+				<Prp name="relpath" type="S" value="23_04_2019_10_58_29_87\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0062">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43578.4578092014"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F4441032-AED3-4C24-9D40-6FD39DE52E7C}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Teste\test2]"/>
+				<Prp name="relpath" type="S" value="23_04_2019_10_59_14_715\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0063">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43578.459117338"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{8AD3827D-BDFA-4FBD-A291-1D036978C7D3}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Teste\LancarProdutoSequencia]"/>
+				<Prp name="relpath" type="S" value="23_04_2019_11_01_07_738\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0064">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43578.4594821412"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{06E67A5E-8A53-45CA-BEE6-35DCDE5DE639}"/>
+				<Prp name="nameofroot" type="S" value="Script Test Log [Teste\LancarProdutoSequencia]"/>
+				<Prp name="relpath" type="S" value="23_04_2019_11_01_39_257\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0065">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43578.4631512963"/>
+				<Prp name="description" type="S" value="Vendas  Caixa"/>
+				<Prp name="key" type="S" value="{67E91D24-76D1-4947-9B9C-A1D1E457665E}"/>
+				<Prp name="nameofroot" type="S" value="Vendas  Caixa"/>
+				<Prp name="relpath" type="S" value="23_04_2019_11_06_56_272\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0066">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43578.4727022222"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{43DE6F57-9A3D-47C9-9504-192A2126D04E}"/>
+				<Prp name="nameofroot" type="S" value="Vendas  Caixa"/>
+				<Prp name="relpath" type="S" value="23_04_2019_11_20_41_472\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0067">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43578.4960818982"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{CCAC4BC9-9D59-454F-BE52-86CB5646ED81}"/>
+				<Prp name="nameofroot" type="S" value="Vendas  Caixa"/>
+				<Prp name="relpath" type="S" value="23_04_2019_11_54_21_476\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+			<Node name="log idx=0068">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43578.570714294"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{006BDD82-125B-46FF-B66E-E959A48CA93B}"/>
+				<Prp name="nameofroot" type="S" value="Vendas  Caixa"/>
+				<Prp name="relpath" type="S" value="23_04_2019_13_41_49_715\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

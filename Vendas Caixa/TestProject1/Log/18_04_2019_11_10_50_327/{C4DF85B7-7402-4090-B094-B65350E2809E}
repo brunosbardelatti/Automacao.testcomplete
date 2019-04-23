@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="summary">
+			<Node name="total">
+				<Prp name="total (sum)" type="I" value="71"/>
+			</Node>
+			<Node name="warning">
+				<Prp name="total (sum)" type="I" value="0"/>
+			</Node>
+			<Node name="executed">
+				<Prp name="total (sum)" type="I" value="20"/>
+			</Node>
+			<Node name="passed">
+				<Prp name="total (sum)" type="I" value="20"/>
+			</Node>
+			<Node name="failed">
+				<Prp name="total (sum)" type="I" value="0"/>
+			</Node>
+			<Prp name="start date" type="D" value="43573.4658611921"/>
+			<Prp name="test" type="S" value="Contingencia Caixa"/>
+			<Prp name="user" type="S" value="pro69"/>
+			<Prp name="host" type="S" value="PC_PRO069"/>
+			<Prp name="stop date" type="D" value="43573.4718449421"/>
+			<Prp name="log status" type="I" value="0"/>
+		</Node>
+		<Node name="log data">
+			<Node name="row17">
+				<Node name="messages"/>
+				<Prp name="end time" type="D" value="43573.4712113079"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="43573.4708829514"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{D3CD6EE6-371B-4440-9764-975CE7F0CE28}"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="name" type="S" value="VendaCrediarioECF &lt; Iteration 8 &gt;"/>
+				<Prp name="index" type="I" value="17"/>
+			</Node>
+			<Node name="row1">
+				<Node name="messages"/>
+				<Prp name="end time" type="D" value="43573.4663979167"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="43573.4661221759"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{E6F8AA29-7FED-4275-95CB-0C588A0405C0}"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="name" type="S" value="VendaDinheiroECF &lt; Iteration 2 &gt;"/>
+				<Prp name="index" type="I" value="1"/>
+			</Node>
+			<Node name="row14">
+				<Node name="messages"/>
+				<Prp name="end time" type="D" value="43573.4702545949"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="43573.4699322917"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{3FEDF80F-1F35-49C6-9E79-2DE95DD2B1B1}"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="name" type="S" value="VendaCrediarioECF &lt; Iteration 5 &gt;"/>
+				<Prp name="index" type="I" value="14"/>
+			</Node>
+			<Node name="row16">
+				<Node name="messages"/>
+				<Prp name="end time" type="D" value="43573.4708828356"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="43573.4705678472"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{D306E47B-4C1F-4188-9422-36F1012363CC}"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="name" type="S" value="VendaCrediarioECF &lt; Iteration 7 &gt;"/>
+				<Prp name="index" type="I" value="16"/>
+			</Node>
+			<Node name="row19">
+				<Node name="messages"/>
+				<Prp name="end time" type="D" value="43573.4718449421"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="43573.4715294213"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{295C8238-179F-4778-AB1D-A57A6A054162}"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="name" type="S" value="VendaCrediarioECF &lt; Iteration 10 &gt;"/>
+				<Prp name="index" type="I" value="19"/>
+			</Node>
+			<Node name="row3">
+				<Node name="messages"/>
+				<Prp name="end time" type="D" value="43573.4669429861"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="43573.466668287"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{BC971299-B55C-4A0B-87C6-C7DD828F4613}"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="name" type="S" value="VendaDinheiroECF &lt; Iteration 4 &gt;"/>
+				<Prp name="index" type="I" value="3"/>
+			</Node>
+			<Node name="row11">
+				<Node name="messages"/>
+				<Prp name="end time" type="D" value="43573.4692966088"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="43573.4689814468"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{9AF36402-260B-4BEB-8F2C-1A1C1C6B8C34}"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="name" type="S" value="VendaCrediarioECF &lt; Iteration 2 &gt;"/>
+				<Prp name="index" type="I" value="11"/>
+			</Node>
+			<Node name="row15">
+				<Node name="messages"/>
+				<Prp name="end time" type="D" value="43573.4705677315"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="43573.4702547106"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{98D0908C-3BD1-48C7-9CDA-FB00B70C57F2}"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="name" type="S" value="VendaCrediarioECF &lt; Iteration 6 &gt;"/>
+				<Prp name="index" type="I" value="15"/>
+			</Node>
+			<Node name="row18">
+				<Node name="messages"/>
+				<Prp name="end time" type="D" value="43573.4715293056"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="43573.4712114236"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{A4D8E7A8-51B2-4169-8B0E-09CDD2B6AAAA}"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="name" type="S" value="VendaCrediarioECF &lt; Iteration 9 &gt;"/>
+				<Prp name="index" type="I" value="18"/>
+			</Node>
+			<Node name="row12">
+				<Node name="messages"/>
+				<Prp name="end time" type="D" value="43573.4696117708"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="43573.4692966088"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{8832ECC3-5445-4D5F-81C4-C6CB4A1911F7}"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="name" type="S" value="VendaCrediarioECF &lt; Iteration 3 &gt;"/>
+				<Prp name="index" type="I" value="12"/>
+			</Node>
+			<Node name="row8">
+				<Node name="messages"/>
+				<Prp name="end time" type="D" value="43573.4683103935"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="43573.4680349306"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{131BF9B2-380E-4177-B23F-F23EE9AB3045}"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="name" type="S" value="VendaDinheiroECF &lt; Iteration 9 &gt;"/>
+				<Prp name="index" type="I" value="8"/>
+			</Node>
+			<Node name="row10">
+				<Node name="messages"/>
+				<Prp name="end time" type="D" value="43573.468981331"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="43573.4686578704"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{8DBAEDF9-08CE-44AF-B0F7-596470C53D61}"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="name" type="S" value="VendaCrediarioECF &lt; Iteration 1 &gt;"/>
+				<Prp name="index" type="I" value="10"/>
+			</Node>
+			<Node name="row2">
+				<Node name="messages"/>
+				<Prp name="end time" type="D" value="43573.466668287"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="43573.4663980324"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{CFDA68ED-9EEE-4337-B3D5-313E16D46ED0}"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="name" type="S" value="VendaDinheiroECF &lt; Iteration 3 &gt;"/>
+				<Prp name="index" type="I" value="2"/>
+			</Node>
+			<Node name="row9">
+				<Node name="messages"/>
+				<Prp name="end time" type="D" value="43573.4686577546"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="43573.4683105093"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{4BACF919-E150-48C7-90F1-CB9529C8F61A}"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="name" type="S" value="VendaDinheiroECF &lt; Iteration 10 &gt;"/>
+				<Prp name="index" type="I" value="9"/>
+			</Node>
+			<Node name="row7">
+				<Node name="messages"/>
+				<Prp name="end time" type="D" value="43573.4680348148"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="43573.4677648958"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{A394968F-56B3-4DEB-AA3A-D08CA9EC38B6}"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="name" type="S" value="VendaDinheiroECF &lt; Iteration 8 &gt;"/>
+				<Prp name="index" type="I" value="7"/>
+			</Node>
+			<Node name="row6">
+				<Node name="messages"/>
+				<Prp name="end time" type="D" value="43573.4677647801"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="43573.467491169"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{81AF5266-AADF-46AA-9481-2BDEF61A97B2}"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="name" type="S" value="VendaDinheiroECF &lt; Iteration 7 &gt;"/>
+				<Prp name="index" type="I" value="6"/>
+			</Node>
+			<Node name="row4">
+				<Node name="messages"/>
+				<Prp name="end time" type="D" value="43573.4672160648"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="43573.4669429861"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{534F79AE-B0E8-4F0E-AA17-09FC647FD33C}"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="name" type="S" value="VendaDinheiroECF &lt; Iteration 5 &gt;"/>
+				<Prp name="index" type="I" value="4"/>
+			</Node>
+			<Node name="row0">
+				<Node name="messages"/>
+				<Prp name="end time" type="D" value="43573.4661220602"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="43573.4658611921"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{B3AFB23E-5411-4C5A-8E35-3F070848474D}"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="name" type="S" value="VendaDinheiroECF &lt; Iteration 1 &gt;"/>
+				<Prp name="index" type="I" value="0"/>
+			</Node>
+			<Node name="row13">
+				<Node name="messages"/>
+				<Prp name="end time" type="D" value="43573.4699321759"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="43573.4696117708"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{2959CABD-CA61-4C17-8F82-D2B18D3B0234}"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="name" type="S" value="VendaCrediarioECF &lt; Iteration 4 &gt;"/>
+				<Prp name="index" type="I" value="13"/>
+			</Node>
+			<Node name="row5">
+				<Node name="messages"/>
+				<Prp name="end time" type="D" value="43573.4674910532"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="start time" type="D" value="43573.4672161806"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="details" type="S" value="{6CF81389-E6EB-4A44-89DA-B83AFAB4672C}"/>
+				<Prp name="testdata item" type="B" value="-1"/>
+				<Prp name="name" type="S" value="VendaDinheiroECF &lt; Iteration 6 &gt;"/>
+				<Prp name="index" type="I" value="5"/>
+			</Node>
+		</Node>
+		<Prp name="hassummary" type="B" value="-1"/>
+	</Node>
+</Nodes>

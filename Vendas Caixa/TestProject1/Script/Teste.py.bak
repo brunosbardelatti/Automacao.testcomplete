@@ -1,0 +1,21 @@
+﻿def Test1():
+  tabControl = Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal
+  textBox = tabControl.txtEntradaDados
+  textBox.SetText("3001")
+  textBox.Keys("[Enter]")
+  tabControl.numQuantidade.Keys("[Enter]")
+  tabControl.numValorTotalItem.Keys("[Enter]")
+
+  
+  
+  
+def LancarProdutoSequencia():
+  cod =3001
+  while cod < 3011:
+   Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.txtEntradaDados.SetText(cod)
+   Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.txtEntradaDados.Keys("[Enter]")
+   Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.numQuantidade.Keys("[Enter]")
+   Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.numValorTotalItem.Keys("[Enter]")
+   cod = cod + 1
+   Delay(1000)
+  

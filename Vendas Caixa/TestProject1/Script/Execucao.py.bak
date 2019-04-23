@@ -1,0 +1,11 @@
+﻿import Finalizador
+import LancarProduto
+
+def vendaDinheiroecf():
+  LancarProduto.LancarProduto()
+  Finalizador.Dinheiroecf()
+  
+def vendaCrediarioecf():
+  LancarProduto.LancarProduto()
+  Finalizador.Crediarioecf()
+  
