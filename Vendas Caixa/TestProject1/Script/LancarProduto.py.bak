@@ -1,14 +1,4 @@
-﻿def LancarProdutoSequenciaEcf():
-  cod =3001
-  while cod < 3004:
-   Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.txtEntradaDados.SetText(cod)
-   Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.txtEntradaDados.Keys("[Enter]")
-   Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.numQuantidade.Keys("[Enter]")
-   Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.numValorTotalItem.Keys("[Enter]")
-   cod = cod + 1
-   Delay(2000)
-   
-def LancarProdutoSequenciaNfce():
+﻿def LancarProdutoSequencia():
   cod =3001
   while cod < 3004:
    Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.txtEntradaDados.SetText(cod)
@@ -19,7 +9,7 @@ def LancarProdutoSequenciaNfce():
    Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.numValorTotalItem.Keys("[Enter]")
    cod = cod + 1
    
-def LancarProdutoSequenciaNfceCpf():
+def LancarProdutoSequenciaCpf():
   cod =3001
   while cod < 3004:
    Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.txtEntradaDados.SetText(cod)
@@ -37,7 +27,6 @@ def LancarProdutoSequenciaNfceCpf():
     Aliases.HiperPdv.HwndSource_BaseWindow.BaseWindow.txtNome.Keys("[F3]")
     Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.numQuantidade.Keys("[Enter]")
     Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.numValorTotalItem.Keys("[Enter]")
-   
    Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.numQuantidade.Keys("[Enter]")
    Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.numValorTotalItem.Keys("[Enter]")
    cod = cod + 1

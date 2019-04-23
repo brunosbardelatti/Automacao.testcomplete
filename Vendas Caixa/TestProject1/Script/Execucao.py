@@ -1,31 +1,33 @@
-﻿import finalizadorNFCE
+﻿import Cliente
+import finalizadorNFCE
 import finalizadorECF
 import LancarProduto
 
 def vendaDinheiroecf():
-  LancarProduto.LancarProdutoSequenciaEcf()
+  LancarProduto.LancarProdutoSequencia()
   FinalizadorECF.Dinheiroecf()
   
 def vendaCrediarioecf():
-  LancarProduto.LancarProdutoSequenciaEcf()
+  LancarProduto.LancarProdutoSequencia()
   FinalizadorECF.Crediarioecf()
 
 def vendaDinheiroNfce():
-  LancarProduto.LancarProdutoSequenciaNfce()
+  LancarProduto.LancarProdutoSequencia()
   finalizadorNFCE.dinheiroNfce()
   
 def vendaDebitoNfce():
-  LancarProduto.LancarProdutoSequenciaNfce()
+  LancarProduto.LancarProdutoSequencia()
   finalizadorNFCE.debitoNfce()
   
 def vendaCreditoNfce():
-  LancarProduto.LancarProdutoSequenciaNfce()
+  LancarProduto.LancarProdutoSequencia()
   finalizadorNFCE.CreditoNfce()
   
 def vendaCrediarioNfce():
-  LancarProduto.LancarProdutoSequenciaNfce()
+  LancarProduto.LancarProdutoSequencia()
   finalizadorNFCE.vendaCrediario()
   
 def vendaDinheiroNfceCpf():
-  LancarProduto.LancarProdutoSequenciaNfceCpf()
+  LancarProduto.LancarProdutoSequencia()
+  Cliente.informarCliente()
   finalizadorNFCE.dinheiroNfce()

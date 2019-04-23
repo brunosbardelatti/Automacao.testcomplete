@@ -25,3 +25,7 @@ def vendaCreditoNfce():
 def vendaCrediarioNfce():
   LancarProduto.LancarProdutoSequenciaNfce()
   finalizadorNFCE.vendaCrediario()
+  
+def vendaDinheiroNfceCpf():
+  LancarProduto.LancarProdutoSequenciaNfceCpf()
+  finalizadorNFCE.dinheiroNfce()

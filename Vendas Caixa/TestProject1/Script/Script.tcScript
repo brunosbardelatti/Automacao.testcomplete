@@ -7,5 +7,6 @@
 		<child name="LancarProduto" key="{A0B1139E-ED47-40E9-B184-10039868B4C3}" path="LancarProduto.py" />
 		<child name="finalizadorECF" key="{8B243433-EC67-4E1E-B907-BE6FBAC92AE5}" path="finalizadorECF.py" />
 		<child name="Execucao" key="{69DF4100-9632-4900-A854-CD450BB501FF}" path="Execucao.py" />
+		<child name="Cliente" key="{57A43447-857A-4903-8208-9073DEFA42A4}" path="Cliente.py" />
 	</children>
 </Root>
