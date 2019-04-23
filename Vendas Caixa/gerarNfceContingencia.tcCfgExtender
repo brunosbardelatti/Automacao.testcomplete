@@ -27,14 +27,22 @@
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
 				<Prp name="activity" type="S" value="{CC3024BF-FD2F-4B2C-95AC-3C00614F4FE0}"/>
 			</Node>
-			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}"/>
+			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
+				<Node name="{05cdae8c-ff25-4efe-8861-b18a60454f7d}">
+					<Prp name="hash" type="I" value="1"/>
+				</Node>
+			</Node>
 			<Node name="{415b5aa1-c6ac-4d4d-9a53-063a521a45ab}">
 				<Node name="workspace">
 					<Node name="0">
 						<Node name="editor">
+							<Node name="{18d21374-749a-4b12-9591-aeba7c5332a9}"/>
 							<Node name="{531ace08-e68e-400b-9eb9-e24763725fd8}">
 								<Prp name="key" type="S" value="{2E2F6932-2195-4F1D-846C-F98273CF0387}"/>
 							</Node>
+							<Node name="{9185a4c3-0780-497d-b02d-ad3af4e9cf98}"/>
+							<Node name="{98f67204-5328-4e0e-99f5-6d1b1e6d4971}"/>
+							<Node name="{d26a70c5-94dd-4095-922f-2de8d44eae70}"/>
 							<Prp name="editor" type="S" value="{A973DB8E-723E-4DB4-9CF6-1BAAF8EFF32E}"/>
 							<Prp name="focused" type="S" value="{2E2F6932-2195-4F1D-846C-F98273CF0387}"/>
 						</Node>
@@ -177,10 +185,11 @@
 			<Node name="{fc9c0755-2819-4b25-8964-06a87b81e1ad}">
 				<Node name="gerarnfcecontingencia">
 					<Node name="vendas  caixa">
-						<Node name="advanced">
-							<Node name="script"/>
-						</Node>
+						<Node name="advanced"/>
 					</Node>
+				</Node>
+				<Node name="gerarnfcecontingencia logs">
+					<Node name="vendas  caixa logs"/>
 				</Node>
 			</Node>
 		</Node>
