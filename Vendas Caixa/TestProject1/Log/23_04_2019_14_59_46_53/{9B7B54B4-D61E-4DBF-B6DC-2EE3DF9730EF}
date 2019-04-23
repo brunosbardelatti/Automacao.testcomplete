@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="248"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="datetime" type="D" value="43578.7506725926"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="610"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.numValorTotalItem"/>
+					<Prp name="object top" type="I" value="221"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="654"/>
+					<Prp name="image file name" type="S" value="visImage91.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.numValorTotalItem&#xA;(Sys.Process(&quot;HiperPdv&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;, 1).WPFObject(&quot;pnlOperacao&quot;).WPFObject(&quot;TabPrincipal&quot;).WPFObject(&quot;gridVenda&quot;).WPFObject(&quot;GrdVenda1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 2).WPFObject(&quot;GridInputValor&quot;).WPFObject(&quot;numValorTotalItem&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43578.6256738657"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="248"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="datetime" type="D" value="43578.7506372338"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="253"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.numQuantidade"/>
+					<Prp name="object top" type="I" value="221"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="266"/>
+					<Prp name="image file name" type="S" value="visImage86.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.numQuantidade&#xA;(Sys.Process(&quot;HiperPdv&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;, 1).WPFObject(&quot;pnlOperacao&quot;).WPFObject(&quot;TabPrincipal&quot;).WPFObject(&quot;gridVenda&quot;).WPFObject(&quot;GrdVenda1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 2).WPFObject(&quot;GridInputQtd&quot;).WPFObject(&quot;numQuantidade&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43578.6256383912"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="197"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="datetime" type="D" value="43578.7506670486"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="84"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.txtEntradaDados"/>
+					<Prp name="object top" type="I" value="153"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="579"/>
+					<Prp name="image file name" type="S" value="visImage89.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.txtEntradaDados&#xA;(Sys.Process(&quot;HiperPdv&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;, 1).WPFObject(&quot;pnlOperacao&quot;).WPFObject(&quot;TabPrincipal&quot;).WPFObject(&quot;gridVenda&quot;).WPFObject(&quot;GrdVenda1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 2).WPFObject(&quot;GridInputItem&quot;).WPFObject(&quot;txtEntradaDados&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43578.6256687847"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="197"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="datetime" type="D" value="43578.7505996875"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="84"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.txtEntradaDados"/>
+					<Prp name="object top" type="I" value="153"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="579"/>
+					<Prp name="image file name" type="S" value="visImage81.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.txtEntradaDados&#xA;(Sys.Process(&quot;HiperPdv&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;, 1).WPFObject(&quot;pnlOperacao&quot;).WPFObject(&quot;TabPrincipal&quot;).WPFObject(&quot;gridVenda&quot;).WPFObject(&quot;GrdVenda1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 2).WPFObject(&quot;GridInputItem&quot;).WPFObject(&quot;txtEntradaDados&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43578.6256010069"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 15">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="133"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="datetime" type="D" value="43578.7507134606"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="7"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.btnConfirmar"/>
+					<Prp name="object top" type="I" value="87"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="671"/>
+					<Prp name="image file name" type="S" value="visImage95.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.btnConfirmar&#xA;(Sys.Process(&quot;HiperPdv&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;, 1).WPFObject(&quot;pnlOperacao&quot;).WPFObject(&quot;TabPrincipal&quot;).WPFObject(&quot;gridFinalizadores&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;gridInputMeioDePagamento&quot;).WPFObject(&quot;btnConfirmar&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43578.6257148495"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="197"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="datetime" type="D" value="43578.7506325"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="84"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.txtEntradaDados"/>
+					<Prp name="object top" type="I" value="153"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="579"/>
+					<Prp name="image file name" type="S" value="visImage84.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.txtEntradaDados&#xA;(Sys.Process(&quot;HiperPdv&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;, 1).WPFObject(&quot;pnlOperacao&quot;).WPFObject(&quot;TabPrincipal&quot;).WPFObject(&quot;gridVenda&quot;).WPFObject(&quot;GrdVenda1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 2).WPFObject(&quot;GridInputItem&quot;).WPFObject(&quot;txtEntradaDados&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43578.6256330671"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The text '3002' was entered in the text editor."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="197"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="datetime" type="D" value="43578.7506345718"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="84"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.txtEntradaDados"/>
+					<Prp name="object top" type="I" value="153"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="579"/>
+					<Prp name="image file name" type="S" value="visImage85.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.txtEntradaDados&#xA;(Sys.Process(&quot;HiperPdv&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;, 1).WPFObject(&quot;pnlOperacao&quot;).WPFObject(&quot;TabPrincipal&quot;).WPFObject(&quot;gridVenda&quot;).WPFObject(&quot;GrdVenda1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 2).WPFObject(&quot;GridInputItem&quot;).WPFObject(&quot;txtEntradaDados&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43578.6256360764"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="248"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="datetime" type="D" value="43578.7506068403"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="610"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.numValorTotalItem"/>
+					<Prp name="object top" type="I" value="221"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="654"/>
+					<Prp name="image file name" type="S" value="visImage83.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.numValorTotalItem&#xA;(Sys.Process(&quot;HiperPdv&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;, 1).WPFObject(&quot;pnlOperacao&quot;).WPFObject(&quot;TabPrincipal&quot;).WPFObject(&quot;gridVenda&quot;).WPFObject(&quot;GrdVenda1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 2).WPFObject(&quot;GridInputValor&quot;).WPFObject(&quot;numValorTotalItem&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43578.6256082755"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="197"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="datetime" type="D" value="43578.7506655093"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="84"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.txtEntradaDados"/>
+					<Prp name="object top" type="I" value="153"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="579"/>
+					<Prp name="image file name" type="S" value="visImage88.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.txtEntradaDados&#xA;(Sys.Process(&quot;HiperPdv&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;, 1).WPFObject(&quot;pnlOperacao&quot;).WPFObject(&quot;TabPrincipal&quot;).WPFObject(&quot;gridVenda&quot;).WPFObject(&quot;GrdVenda1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 2).WPFObject(&quot;GridInputItem&quot;).WPFObject(&quot;txtEntradaDados&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43578.6256661111"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The text '3003' was entered in the text editor."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="123"/>
+					<Prp name="line #" type="I" value="4"/>
+					<Prp name="datetime" type="D" value="43578.7507104861"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="190"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.edtConsoleInput"/>
+					<Prp name="object top" type="I" value="96"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="656"/>
+					<Prp name="image file name" type="S" value="visImage94.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="line no" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.edtConsoleInput&#xA;(Sys.Process(&quot;HiperPdv&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;, 1).WPFObject(&quot;pnlOperacao&quot;).WPFObject(&quot;TabPrincipal&quot;).WPFObject(&quot;gridFinalizadores&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;gridInputMeioDePagamento&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;edtConsoleInput&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43578.6257117708"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="626"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="43578.7506994792"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="690"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.btnSubtotalVenda"/>
+					<Prp name="object top" type="I" value="570"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="1354"/>
+					<Prp name="image file name" type="S" value="visImage92.png"/>
+					<Prp name="click point y" type="I" value="598"/>
+					<Prp name="click point x" type="I" value="1022"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.btnSubtotalVenda&#xA;(Sys.Process(&quot;HiperPdv&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;, 1).WPFObject(&quot;pnlOperacao&quot;).WPFObject(&quot;TabPrincipal&quot;).WPFObject(&quot;gridVenda&quot;).WPFObject(&quot;GrdVenda2&quot;).WPFObject(&quot;btnSubtotalVenda&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43578.6257013079"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 0">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="197"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="datetime" type="D" value="43578.7505978704"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="84"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.txtEntradaDados"/>
+					<Prp name="object top" type="I" value="153"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="579"/>
+					<Prp name="image file name" type="S" value="visImage80.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.txtEntradaDados&#xA;(Sys.Process(&quot;HiperPdv&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;, 1).WPFObject(&quot;pnlOperacao&quot;).WPFObject(&quot;TabPrincipal&quot;).WPFObject(&quot;gridVenda&quot;).WPFObject(&quot;GrdVenda1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 2).WPFObject(&quot;GridInputItem&quot;).WPFObject(&quot;txtEntradaDados&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43578.6255985301"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="The text '3001' was entered in the text editor."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 13">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="123"/>
+					<Prp name="line #" type="I" value="3"/>
+					<Prp name="datetime" type="D" value="43578.7507085069"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="190"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.edtConsoleInput"/>
+					<Prp name="object top" type="I" value="96"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="656"/>
+					<Prp name="image file name" type="S" value="visImage93.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="'[F1]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.edtConsoleInput&#xA;(Sys.Process(&quot;HiperPdv&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;, 1).WPFObject(&quot;pnlOperacao&quot;).WPFObject(&quot;TabPrincipal&quot;).WPFObject(&quot;gridFinalizadores&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;gridInputMeioDePagamento&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 1).WPFObject(&quot;edtConsoleInput&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43578.625709375"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{A0B1139E-ED47-40E9-B184-10039868B4C3}"/>
+			<Prp name="unit 1" type="S" value="{8B243433-EC67-4E1E-B907-BE6FBAC92AE5}"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="248"/>
+					<Prp name="line #" type="I" value="6"/>
+					<Prp name="datetime" type="D" value="43578.7506398032"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="610"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.numValorTotalItem"/>
+					<Prp name="object top" type="I" value="221"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="654"/>
+					<Prp name="image file name" type="S" value="visImage87.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="line no" type="I" value="6"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.numValorTotalItem&#xA;(Sys.Process(&quot;HiperPdv&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;, 1).WPFObject(&quot;pnlOperacao&quot;).WPFObject(&quot;TabPrincipal&quot;).WPFObject(&quot;gridVenda&quot;).WPFObject(&quot;GrdVenda1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 2).WPFObject(&quot;GridInputValor&quot;).WPFObject(&quot;numValorTotalItem&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43578.6256412384"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="248"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="datetime" type="D" value="43578.7506031597"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="253"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.numQuantidade"/>
+					<Prp name="object top" type="I" value="221"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="266"/>
+					<Prp name="image file name" type="S" value="visImage82.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.numQuantidade&#xA;(Sys.Process(&quot;HiperPdv&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;, 1).WPFObject(&quot;pnlOperacao&quot;).WPFObject(&quot;TabPrincipal&quot;).WPFObject(&quot;gridVenda&quot;).WPFObject(&quot;GrdVenda1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 2).WPFObject(&quot;GridInputQtd&quot;).WPFObject(&quot;numQuantidade&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43578.6256045486"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="object bottom" type="I" value="248"/>
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="datetime" type="D" value="43578.7506702546"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="object left" type="I" value="253"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="object name" type="S" value="Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.numQuantidade"/>
+					<Prp name="object top" type="I" value="221"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="object right" type="I" value="266"/>
+					<Prp name="image file name" type="S" value="visImage90.png"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="need update" type="B" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="remarks" type="S" value="'[Enter]' was sent as a keyboard input to the following window or control.&#xA;&#xA;Tested object:&#xA;Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.numQuantidade&#xA;(Sys.Process(&quot;HiperPdv&quot;).WPFObject(&quot;HwndSource: MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;).WPFObject(&quot;MainWindow&quot;, &quot;Hiper Frente de Caixa&quot;, 1).WPFObject(&quot;pnlOperacao&quot;).WPFObject(&quot;TabPrincipal&quot;).WPFObject(&quot;gridVenda&quot;).WPFObject(&quot;GrdVenda1&quot;).WPFObject(&quot;Grid&quot;, &quot;&quot;, 2).WPFObject(&quot;GridInputQtd&quot;).WPFObject(&quot;numQuantidade&quot;))"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="date" type="D" value="43578.6256711921"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="message" type="S" value="Keyboard input."/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

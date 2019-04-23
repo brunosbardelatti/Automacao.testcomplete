@@ -16,23 +16,23 @@
 				<testParameters />
 				<children />
 			</testItem>
-			<testItem name="VendaDinheiro" key="{6A1773D6-0C89-4B12-8286-0192222CB0DD}" group="False" enabled="True" testMoniker="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDinheiro" count="10" timeout="0" stopOnError="3" stopOnException="2" description="">
+			<testItem name="VendaDinheiro" key="{6A1773D6-0C89-4B12-8286-0192222CB0DD}" group="False" enabled="False" testMoniker="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDinheiro" count="10" timeout="0" stopOnError="3" stopOnException="2" description="">
 				<testParameters />
 				<children />
 			</testItem>
-			<testItem name="VendaDinheiroCPF" key="{99B98696-1EA0-4CFC-B21B-D5F1461D9D82}" group="False" enabled="True" testMoniker="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDinheiroCpf" count="10" timeout="0" stopOnError="3" stopOnException="2" description="">
+			<testItem name="VendaDinheiroCPF" key="{99B98696-1EA0-4CFC-B21B-D5F1461D9D82}" group="False" enabled="False" testMoniker="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDinheiroCpf" count="10" timeout="0" stopOnError="3" stopOnException="2" description="">
 				<testParameters />
 				<children />
 			</testItem>
-			<testItem name="VendaCrediario" key="{687719E8-658D-449D-96DF-B62EEBF3CAD6}" group="False" enabled="True" testMoniker="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaCrediario" count="10" timeout="0" stopOnError="3" stopOnException="2" description="">
+			<testItem name="VendaCrediario" key="{687719E8-658D-449D-96DF-B62EEBF3CAD6}" group="False" enabled="False" testMoniker="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaCrediario" count="10" timeout="0" stopOnError="3" stopOnException="2" description="">
 				<testParameters />
 				<children />
 			</testItem>
-			<testItem name="VendaCartaoCredito" key="{4A5F7C87-7858-459A-9D6A-DA207C5C390B}" group="False" enabled="True" testMoniker="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaCredito" count="10" timeout="0" stopOnError="3" stopOnException="2" description="">
+			<testItem name="VendaCartaoCredito" key="{4A5F7C87-7858-459A-9D6A-DA207C5C390B}" group="False" enabled="False" testMoniker="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaCredito" count="10" timeout="0" stopOnError="3" stopOnException="2" description="">
 				<testParameters />
 				<children />
 			</testItem>
-			<testItem name="VendaCartaoDebito" key="{0695AEE6-4C65-4BBC-B434-13819A5EE65D}" group="False" enabled="True" testMoniker="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDebito" count="10" timeout="0" stopOnError="3" stopOnException="2" description="">
+			<testItem name="VendaCartaoDebito" key="{0695AEE6-4C65-4BBC-B434-13819A5EE65D}" group="False" enabled="False" testMoniker="{DB70E9A3-CF28-4DFD-BADF-F1317A946BC7}vendaDebito" count="10" timeout="0" stopOnError="3" stopOnException="2" description="">
 				<testParameters />
 				<children />
 			</testItem>

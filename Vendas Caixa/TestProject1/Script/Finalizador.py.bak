@@ -5,7 +5,6 @@
   tabControl.edtConsoleInput.Keys("[Enter]")
   tabControl.btnConfirmar.Keys("[Enter]")
   
-
 def Crediarioecf():
   hiperPdv = Aliases.HiperPdv
   hwndSource = hiperPdv.HwndSource_MainWindow

@@ -1,9 +1,8 @@
 ﻿def Dinheiroecf():
-  tabControl = Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal
-  tabControl.btnSubtotalVenda.ClickButton()
-  tabControl.edtConsoleInput.Keys("[F1]")
-  tabControl.edtConsoleInput.Keys("[Enter]")
-  tabControl.btnConfirmar.Keys("[Enter]")
+  Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.btnSubtotalVenda.ClickButton()
+  Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.edtConsoleInput.Keys("[F1]")
+  Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.edtConsoleInput.Keys("[Enter]")
+  Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.btnConfirmar.Keys("[Enter]")
   
 def Crediarioecf():
   hiperPdv = Aliases.HiperPdv
