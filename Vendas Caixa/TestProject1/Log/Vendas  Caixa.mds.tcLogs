@@ -642,6 +642,15 @@
 				<Prp name="relpath" type="S" value="23_04_2019_13_41_49_715\Description.tcLog"/>
 				<Prp name="status" type="I" value="2"/>
 			</Node>
+			<Node name="log idx=0069">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43578.5985862963"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{EAE376F9-C125-4D0C-9331-9CBCD30EF318}"/>
+				<Prp name="nameofroot" type="S" value="Vendas  Caixa"/>
+				<Prp name="relpath" type="S" value="23_04_2019_14_21_57_856\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
