@@ -822,6 +822,15 @@
 				<Prp name="relpath" type="S" value="23_04_2019_17_32_01_976\Description.tcLog"/>
 				<Prp name="status" type="I" value="0"/>
 			</Node>
+			<Node name="log idx=0089">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="43578.7357888542"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{F69B079D-5F1A-463D-9242-AB9ECF19C2FF}"/>
+				<Prp name="nameofroot" type="S" value="Vendas  Caixa"/>
+				<Prp name="relpath" type="S" value="23_04_2019_17_39_32_157\Description.tcLog"/>
+				<Prp name="status" type="I" value="2"/>
+			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{681DCC69-A39F-4C4D-8E7D-B2D9362FAF4F}"/>
 		<Prp name="version" type="S" value="11.0"/>
