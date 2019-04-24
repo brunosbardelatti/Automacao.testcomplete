@@ -28,3 +28,6 @@ Script/Visualizer/**/*.png
 NameMapping/Images/*.png
 Script/Visualizer/*.png
 Script/Visualizer/**/*.png
+
+*.png
+**/*.png
