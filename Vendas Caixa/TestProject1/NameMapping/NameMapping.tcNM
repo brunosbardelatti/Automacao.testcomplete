@@ -20,7 +20,6 @@
 						</Properties>
 						<Children>
 							<Child Name="HwndSource_MainWindow" Key="{59D45818-6FA2-4987-842C-87B91FC293A9}" ParallelWalk="True">
-								<Image FileName="-596864408" Left="0" Top="0" Right="1366" Bottom="738" />
 								<Properties>
 									<Property Name="RootVisual.ClrClassName">
 										<Value PropertyType="0" Value="MainWindow" Type="5" />
@@ -31,7 +30,6 @@
 								</Properties>
 								<Children>
 									<Child Name="MainWindow" Key="{895857CA-8786-4A11-8AAC-952E9CD1D958}" ParallelWalk="True">
-										<Image FileName="-596864408" Left="0" Top="0" Right="1367" Bottom="739" />
 										<Properties>
 											<Property Name="ClrFullClassName">
 												<Value PropertyType="0" Value="HiperPdv.MainWindow" Type="5" />
@@ -39,7 +37,6 @@
 										</Properties>
 										<Children>
 											<Child Name="TabPrincipal" Key="{4256D793-3926-477B-A637-C46CE4E46841}" ExtendedFind="True" ParallelWalk="True">
-												<Image FileName="-596864408" Left="0" Top="28" Right="1367" Bottom="739" />
 												<Properties>
 													<Property Name="WPFControlName">
 														<Value PropertyType="0" Value="TabPrincipal" Type="5" />
@@ -47,7 +44,6 @@
 												</Properties>
 												<Children>
 													<Child Name="txtUsuario" Key="{03EFD5B3-6DA1-46BB-AE6D-19C900485521}" ExtendedFind="True" ParallelWalk="True">
-														<Image FileName="-596864408" Left="522" Top="324" Right="848" Bottom="358" />
 														<TypeInfo Item0="{7B164DEF-6560-4CCF-8105-BA03D5D258EC}" />
 														<Properties>
 															<Property Name="WPFControlName">
@@ -56,7 +52,6 @@
 														</Properties>
 													</Child>
 													<Child Name="txtSenha" Key="{E34F1A99-DA6A-4484-8E8D-364798A93A4D}" ExtendedFind="True" ParallelWalk="True">
-														<Image FileName="-993433714" Left="522" Top="406" Right="848" Bottom="440" />
 														<TypeInfo Item0="{7F5C81A8-4A99-4370-BF07-170B961E7F7C}" />
 														<Properties>
 															<Property Name="WPFControlName">
@@ -65,7 +60,6 @@
 														</Properties>
 													</Child>
 													<Child Name="txtEntradaDados" Key="{D9952D97-B99F-47C0-850B-25CDDD40AD8C}" ExtendedFind="True" ParallelWalk="True">
-														<Image FileName="-1505112431" Left="87" Top="156" Right="582" Bottom="200" />
 														<TypeInfo Item0="{7B164DEF-6560-4CCF-8105-BA03D5D258EC}" />
 														<Properties>
 															<Property Name="WPFControlName">
@@ -74,7 +68,6 @@
 														</Properties>
 													</Child>
 													<Child Name="numQuantidade" Key="{5056AF05-C4DA-4239-A522-5956DE11ECC0}" ExtendedFind="True" ParallelWalk="True">
-														<Image FileName="1365795206" Left="256" Top="224" Right="269" Bottom="251" />
 														<TypeInfo Item0="{CA9CFFA4-5A97-4428-9CD6-F5512A42BF63}" />
 														<Properties>
 															<Property Name="WPFControlName">
@@ -83,7 +76,6 @@
 														</Properties>
 													</Child>
 													<Child Name="numValorTotalItem" Key="{8F215F6B-31DE-4EDD-97D4-340F2742C338}" ExtendedFind="True" ParallelWalk="True">
-														<Image FileName="1018527298" Left="613" Top="224" Right="657" Bottom="251" />
 														<TypeInfo Item0="{CA9CFFA4-5A97-4428-9CD6-F5512A42BF63}" />
 														<Properties>
 															<Property Name="WPFControlName">
@@ -92,7 +84,6 @@
 														</Properties>
 													</Child>
 													<Child Name="edtConsoleInput" Key="{8115B1AF-6B18-4515-B370-7547C6001FF9}" ExtendedFind="True" ParallelWalk="True">
-														<Image FileName="-947340604" Left="193" Top="99" Right="659" Bottom="126" />
 														<TypeInfo Item0="{CA9CFFA4-5A97-4428-9CD6-F5512A42BF63}" />
 														<Properties>
 															<Property Name="WPFControlName">
@@ -101,7 +92,6 @@
 														</Properties>
 													</Child>
 													<Child Name="btnConfirmar" Key="{4B19B1E6-3127-499B-BC5A-E21E83B6CDB2}" ExtendedFind="True" ParallelWalk="True">
-														<Image FileName="-97675752" Left="10" Top="90" Right="674" Bottom="136" />
 														<TypeInfo Item0="{A67BE6CA-B927-4658-AF04-B9D2ED4E7D54}" />
 														<Properties>
 															<Property Name="WPFControlName">
@@ -110,7 +100,6 @@
 														</Properties>
 													</Child>
 													<Child Name="btnSubtotalVenda" Key="{4399A910-9D90-43D1-A066-63231FF2E31D}" ExtendedFind="True" ParallelWalk="True">
-														<Image FileName="-1061736414" Left="693" Top="573" Right="1357" Bottom="629" />
 														<Properties>
 															<Property Name="WPFControlName">
 																<Value PropertyType="0" Value="btnSubtotalVenda" Type="5" />
@@ -120,7 +109,6 @@
 												</Children>
 											</Child>
 											<Child Name="lblVersaoSistema" Key="{AC8C400C-3625-4397-977A-750D05A94A08}" ExtendedFind="True" ParallelWalk="True">
-												<Image FileName="-61213818" Left="40" Top="5" Right="1307" Bottom="23" />
 												<TypeInfo Item0="{CA9CFFA4-5A97-4428-9CD6-F5512A42BF63}" />
 												<Properties>
 													<Property Name="WPFControlName">
@@ -133,7 +121,6 @@
 								</Children>
 							</Child>
 							<Child Name="HwndSource_BaseWindow" Key="{2B657756-C69D-4E03-A0E9-81D330484436}" ParallelWalk="True">
-								<Image FileName="823719438" Left="0" Top="0" Right="602" Bottom="357" />
 								<Properties>
 									<Property Name="RootVisual.ClrClassName">
 										<Value PropertyType="0" Value="BaseWindow" Type="5" />
@@ -144,7 +131,6 @@
 								</Properties>
 								<Children>
 									<Child Name="BaseWindow" Key="{13CCBDC1-2EA9-4E91-84FB-C9DE922FD5E9}" ParallelWalk="True">
-										<Image FileName="823719438" Left="0" Top="0" Right="603" Bottom="358" />
 										<Properties>
 											<Property Name="ClrFullClassName">
 												<Value PropertyType="0" Value="HiperPdv.Components.BaseWindow" Type="5" />
@@ -152,7 +138,6 @@
 										</Properties>
 										<Children>
 											<Child Name="cboPessoa" Key="{7EBCBE62-4B95-4965-8E95-671407C0069A}" ExtendedFind="True" ParallelWalk="True">
-												<Image FileName="823719438" Left="145" Top="70" Right="333" Bottom="101" />
 												<TypeInfo Item0="{56510AD2-4EE9-496C-8C77-F298514C146A}" />
 												<Properties>
 													<Property Name="WPFControlName">
@@ -161,7 +146,6 @@
 												</Properties>
 											</Child>
 											<Child Name="mtbCpf" Key="{92C961AE-8DEB-459D-8835-67E8AA8FEF64}" ExtendedFind="True" ParallelWalk="True">
-												<Image FileName="823719438" Left="145" Top="108" Right="333" Bottom="139" />
 												<TypeInfo Item0="{7B164DEF-6560-4CCF-8105-BA03D5D258EC}" />
 												<Properties>
 													<Property Name="WPFControlName">
@@ -170,7 +154,6 @@
 												</Properties>
 											</Child>
 											<Child Name="txtNome" Key="{BD20477B-2C03-4969-B809-3DAFC5FB6BDD}" ExtendedFind="True" ParallelWalk="True">
-												<Image FileName="2108432294" Left="145" Top="146" Right="582" Bottom="177" />
 												<TypeInfo Item0="{7B164DEF-6560-4CCF-8105-BA03D5D258EC}" />
 												<Properties>
 													<Property Name="WPFControlName">
@@ -179,7 +162,6 @@
 												</Properties>
 											</Child>
 											<Child Name="TxtFiltro" Key="{B4C379B5-9753-428A-93A9-3AE8C4645566}" ExtendedFind="True" ParallelWalk="True">
-												<Image FileName="1931681039" Left="11" Top="81" Right="617" Bottom="112" />
 												<TypeInfo Item0="{7B164DEF-6560-4CCF-8105-BA03D5D258EC}" />
 												<Properties>
 													<Property Name="WPFControlName">
@@ -188,7 +170,6 @@
 												</Properties>
 											</Child>
 											<Child Name="btnContinuar" Key="{E436623E-EC06-4837-840C-2714A8F33986}" ExtendedFind="True" ParallelWalk="True">
-												<Image FileName="-247553159" Left="202" Top="401" Right="348" Bottom="432" />
 												<TypeInfo Item0="{A67BE6CA-B927-4658-AF04-B9D2ED4E7D54}" />
 												<Properties>
 													<Property Name="WPFControlName">
@@ -197,7 +178,6 @@
 												</Properties>
 											</Child>
 											<Child Name="DgrEntidades" Key="{FB4C0520-AA51-4B98-BAAA-B48146D3531A}" ExtendedFind="True" ParallelWalk="True">
-												<Image FileName="-1563679976" Left="11" Top="121" Right="792" Bottom="575" />
 												<Properties>
 													<Property Name="WPFControlName">
 														<Value PropertyType="0" Value="DgrEntidades" Type="5" />
@@ -205,7 +185,6 @@
 												</Properties>
 												<Children>
 													<Child Name="DatagridcellAbbocareIndStriaDeAlimentosLtd" Key="{0EC22412-EA7E-4A3A-8C59-1DA289A2656D}" ExtendedFind="True" ParallelWalk="True">
-														<Image FileName="71164847" Left="12" Top="162" Right="273" Bottom="193" />
 														<TypeInfo Item0="{CA9CFFA4-5A97-4428-9CD6-F5512A42BF63}" />
 														<Properties>
 															<Property Name="ClrFullClassName">
@@ -219,7 +198,6 @@
 												</Children>
 											</Child>
 											<Child Name="btnSim" Key="{7F03D150-8D3D-4F08-80F1-DEDACCF5723E}" ExtendedFind="True" ParallelWalk="True">
-												<Image FileName="1968692095" Left="101" Top="167" Right="247" Bottom="198" />
 												<TypeInfo Item0="{A67BE6CA-B927-4658-AF04-B9D2ED4E7D54}" />
 												<Properties>
 													<Property Name="WPFControlName">
@@ -228,7 +206,6 @@
 												</Properties>
 											</Child>
 											<Child Name="PnlConteudo" Key="{C8C90397-926E-491F-B469-9BAA5A80BE38}" ExtendedFind="True" ParallelWalk="True">
-												<Image FileName="976992586" Left="1" Top="36" Right="502" Bottom="377" />
 												<Properties>
 													<Property Name="WPFControlName">
 														<Value PropertyType="0" Value="PnlConteudo" Type="5" />
@@ -236,10 +213,17 @@
 												</Properties>
 												<Children>
 													<Child Name="btnCancelar" Key="{B5C84BED-4F9B-4429-8A6F-E67F2A45C9B8}" ExtendedFind="True" ParallelWalk="True">
-														<Image FileName="976992586" Left="257" Top="314" Right="403" Bottom="365" />
 														<Properties>
 															<Property Name="WPFControlName">
 																<Value PropertyType="0" Value="btnCancelar" Type="5" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="viewCustomMessage" Key="{30B3CEEB-D5D8-479B-B9C8-6389C8266274}" ExtendedFind="True" ParallelWalk="True">
+														<Image FileName="471992359" Left="1" Top="36" Right="502" Bottom="213" />
+														<Properties>
+															<Property Name="WPFControlName">
+																<Value PropertyType="0" Value="viewCustomMessage" Type="5" />
 															</Property>
 														</Properties>
 													</Child>
@@ -250,7 +234,6 @@
 								</Children>
 							</Child>
 							<Child Name="dlgSalvarSa_daDeImpress_oComo" Key="{00453F73-0D9C-4C43-BEB5-0B9C5DD5C7C3}" ParallelWalk="True">
-								<Image FileName="-1528204708" Left="0" Top="0" Right="683" Bottom="480" />
 								<Properties>
 									<Property Name="WndClass">
 										<Value PropertyType="0" Value="#32770" Type="5" />
@@ -261,7 +244,6 @@
 								</Properties>
 								<Children>
 									<Child Name="DUIViewWndClassName" Key="{2B8CCCC1-9D6F-4829-A4F6-F11787CE0A78}" ParallelWalk="True">
-										<Image FileName="-1528204708" Left="8" Top="66" Right="675" Bottom="420" />
 										<Properties>
 											<Property Name="WndClass">
 												<Value PropertyType="0" Value="DUIViewWndClassName" Type="5" />
@@ -269,7 +251,6 @@
 										</Properties>
 										<Children>
 											<Child Name="Painel_do_Explorer" Key="{DE7F4D03-BBC9-4D38-A130-E6E43AE80FED}" ParallelWalk="True">
-												<Image FileName="-1528204708" Left="8" Top="66" Right="675" Bottom="420" />
 												<Properties>
 													<Property Name="FrameworkId">
 														<Value PropertyType="0" Value="DirectUI" Type="5" />
@@ -289,7 +270,6 @@
 												</Properties>
 												<Children>
 													<Child Name="FloatNotifySink" Key="{34C7552C-D827-4EDE-9CF0-9D9B0D4944FC}" ParallelWalk="True">
-														<Image FileName="-1475514818" Left="133" Top="366" Right="670" Bottom="389" />
 														<Properties>
 															<Property Name="WndClass">
 																<Value PropertyType="0" Value="FloatNotifySink" Type="5" />
@@ -303,7 +283,6 @@
 														</Properties>
 														<Children>
 															<Child Name="ComboBox" Key="{F3F7057B-E4AD-4B09-8B08-972F72C206ED}" ParallelWalk="True">
-																<Image FileName="-1475514818" Left="133" Top="366" Right="670" Bottom="389" />
 																<Properties>
 																	<Property Name="WndClass">
 																		<Value PropertyType="0" Value="ComboBox" Type="5" />
@@ -311,7 +290,6 @@
 																</Properties>
 																<Children>
 																	<Child Name="Edit" Key="{4C58B20F-2711-4F71-AC08-D69E02CB4C5B}" ParallelWalk="True">
-																		<Image FileName="-1475514818" Left="136" Top="369" Right="650" Bottom="386" />
 																		<TypeInfo Item0="{AEE029CA-113B-4B5D-9235-21E6DAA815E5}" />
 																		<Properties>
 																			<Property Name="WndClass">
@@ -328,7 +306,6 @@
 										</Children>
 									</Child>
 									<Child Name="btnCancelar" Key="{A0F73724-071B-4237-9378-51F8E3353386}" ParallelWalk="True">
-										<Image FileName="1203301760" Left="570" Top="434" Right="658" Bottom="460" />
 										<TypeInfo Item0="{E4324499-B09D-4110-94C2-4F672BB049BA}" />
 										<Properties>
 											<Property Name="WndClass">
@@ -342,7 +319,6 @@
 								</Children>
 							</Child>
 							<Child Name="HwndSource_BaseWindow2" Key="{7C30016B-396E-4438-BFD1-90A73AD4CBF6}" ParallelWalk="True">
-								<Image FileName="1244888056" Left="0" Top="0" Right="802" Bottom="637" />
 								<Properties>
 									<Property Name="RootVisual.ClrClassName">
 										<Value PropertyType="0" Value="BaseWindow" Type="5" />
@@ -353,7 +329,6 @@
 								</Properties>
 								<Children>
 									<Child Name="BaseWindow" Key="{F0133EE6-F252-413C-854D-210DF1A65881}" ParallelWalk="True">
-										<Image FileName="1244888056" Left="0" Top="0" Right="803" Bottom="638" />
 										<Properties>
 											<Property Name="ClrFullClassName">
 												<Value PropertyType="0" Value="HiperPdv.Components.BaseWindow" Type="5" />
@@ -361,7 +336,6 @@
 										</Properties>
 										<Children>
 											<Child Name="dgvPendencias" Key="{7492AF80-F297-4D83-85F0-470A4AB46B67}" ExtendedFind="True" ParallelWalk="True">
-												<Image FileName="1244888056" Left="11" Top="46" Right="792" Bottom="535" />
 												<Properties>
 													<Property Name="WPFControlName">
 														<Value PropertyType="0" Value="dgvPendencias" Type="5" />
@@ -369,7 +343,6 @@
 												</Properties>
 												<Children>
 													<Child Name="Datagridcell1" Key="{6550722E-845C-4EC3-B790-8715026D9DD7}" ExtendedFind="True" ParallelWalk="True">
-														<Image FileName="1244888056" Left="12" Top="87" Right="93" Bottom="118" />
 														<TypeInfo Item0="{CA9CFFA4-5A97-4428-9CD6-F5512A42BF63}" />
 														<Properties>
 															<Property Name="ClrFullClassName">
@@ -396,7 +369,6 @@
 						</Properties>
 						<Children>
 							<Child Name="wndShell_TrayWnd" Key="{DD5817B6-F73C-400B-81DD-FA5F21022139}" ParallelWalk="True">
-								<Image FileName="348469738" Left="0" Top="0" Right="1366" Bottom="40" />
 								<Properties>
 									<Property Name="WndClass">
 										<Value PropertyType="0" Value="Shell_TrayWnd" Type="5" />
@@ -404,7 +376,6 @@
 								</Properties>
 								<Children>
 									<Child Name="ReBarWindow32" Key="{E3690834-69B0-4F41-BA34-359B236E64F5}" ParallelWalk="True">
-										<Image FileName="348469738" Left="142" Top="0" Right="1111" Bottom="40" />
 										<Properties>
 											<Property Name="WndClass">
 												<Value PropertyType="0" Value="ReBarWindow32" Type="5" />
@@ -412,7 +383,6 @@
 										</Properties>
 										<Children>
 											<Child Name="MSTaskSwWClass" Key="{1595729B-FE0A-46AD-8721-0E59DF995E6F}" ParallelWalk="True">
-												<Image FileName="348469738" Left="144" Top="0" Right="1057" Bottom="40" />
 												<Properties>
 													<Property Name="WndClass">
 														<Value PropertyType="0" Value="MSTaskSwWClass" Type="5" />
@@ -423,7 +393,6 @@
 												</Properties>
 												<Children>
 													<Child Name="MSTaskListWClass" Key="{D75ACF61-6437-464C-A6CC-826B06C73A2F}" ParallelWalk="True">
-														<Image FileName="348469738" Left="144" Top="0" Right="1057" Bottom="40" />
 														<TypeInfo Item0="{4E5FF0E9-9F12-43E2-9672-48F5778ACFB5}" />
 														<Properties>
 															<Property Name="WndClass">
@@ -476,6 +445,7 @@
 					<Child Name="btnSim" Owner="{7F03D150-8D3D-4F08-80F1-DEDACCF5723E}" />
 					<Child Name="PnlConteudo" Owner="{C8C90397-926E-491F-B469-9BAA5A80BE38}">
 						<Child Name="btnCancelar" Owner="{B5C84BED-4F9B-4429-8A6F-E67F2A45C9B8}" />
+						<Child Name="viewCustomMessage" Owner="{30B3CEEB-D5D8-479B-B9C8-6389C8266274}" />
 					</Child>
 				</Child>
 			</Child>

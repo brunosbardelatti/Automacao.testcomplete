@@ -40,5 +40,7 @@ def crediarioNfce():
   Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.edtConsoleInput.Keys("2")
   Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.edtConsoleInput.Keys("[Enter]")
   Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.btnConfirmar.Keys("[Enter]")
+  if (Aliases.HiperPdv.HwndSource_BaseWindow.baseWindow.btnSim.Exists):
+    Aliases.HiperPdv.HwndSource_BaseWindow.baseWindow.btnSim.ClickButton()
   Aliases.HiperPdv.HwndSource_BaseWindow2.BaseWindow.dgvPendencias.Datagridcell1.Keys("[F3]")
   Aliases.HiperPdv.dlgSalvarSa_daDeImpress_oComo.DUIViewWndClassName.Painel_do_Explorer.FloatNotifySink.ComboBox.Edit.Keys("[Esc]")
