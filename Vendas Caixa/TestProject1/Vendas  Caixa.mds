@@ -12,7 +12,7 @@
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{3EE67778-EBC2-4372-BB5A-480430274FDF}" version="14">
 		<children>
-			<testItem name="Login Caixa" key="{3F099C6F-B7AA-4701-A7BE-E1FC162880CB}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+			<testItem name="Login Caixa" key="{3F099C6F-B7AA-4701-A7BE-E1FC162880CB}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
 				<testParameters />
 				<children>
 					<testItem name="Login" key="{746BFE56-D01C-4F00-8983-1543CBDE1882}" group="False" enabled="True" testMoniker="{66D1CDBF-C7AE-4A94-BACF-2E2BDE33E391}login" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
@@ -24,15 +24,15 @@
 			<testItem name="NFC-e" key="{F13647B9-47E4-49E8-BB86-7C493B4C9B42}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
 				<testParameters />
 				<children>
-					<testItem name="VendaDinheiroNfce" key="{6A1773D6-0C89-4B12-8286-0192222CB0DD}" group="False" enabled="False" testMoniker="{69DF4100-9632-4900-A854-CD450BB501FF}vendaDinheiroNfce" count="10" timeout="0" stopOnError="3" stopOnException="2" description="">
+					<testItem name="VendaDinheiroNfce" key="{6A1773D6-0C89-4B12-8286-0192222CB0DD}" group="False" enabled="True" testMoniker="{69DF4100-9632-4900-A854-CD450BB501FF}vendaDinheiroNfce" count="10" timeout="0" stopOnError="3" stopOnException="2" description="">
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="VendaDinheiroNfceCPF" key="{99B98696-1EA0-4CFC-B21B-D5F1461D9D82}" group="False" enabled="False" testMoniker="{69DF4100-9632-4900-A854-CD450BB501FF}vendaDinheiroNfceCpf" count="10" timeout="0" stopOnError="3" stopOnException="2" description="">
+					<testItem name="VendaDinheiroNfceCPF" key="{99B98696-1EA0-4CFC-B21B-D5F1461D9D82}" group="False" enabled="True" testMoniker="{69DF4100-9632-4900-A854-CD450BB501FF}vendaDinheiroNfceCpf" count="10" timeout="0" stopOnError="3" stopOnException="2" description="">
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="VendaCreditoNfce" key="{4A5F7C87-7858-459A-9D6A-DA207C5C390B}" group="False" enabled="False" testMoniker="{69DF4100-9632-4900-A854-CD450BB501FF}vendaCreditoNfce" count="10" timeout="0" stopOnError="3" stopOnException="2" description="">
+					<testItem name="VendaCreditoNfce" key="{4A5F7C87-7858-459A-9D6A-DA207C5C390B}" group="False" enabled="True" testMoniker="{69DF4100-9632-4900-A854-CD450BB501FF}vendaCreditoNfce" count="10" timeout="0" stopOnError="3" stopOnException="2" description="">
 						<testParameters />
 						<children />
 					</testItem>
@@ -46,7 +46,7 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="ECF" key="{5CF04FB1-6857-4C5F-B2DB-FFBECAFAA889}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+			<testItem name="ECF" key="{5CF04FB1-6857-4C5F-B2DB-FFBECAFAA889}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
 				<testParameters />
 				<children>
 					<testItem name="VendaDinheiroECF" key="{B46182A9-CA5E-4427-83CE-D5E071B39EE4}" group="False" enabled="True" testMoniker="{69DF4100-9632-4900-A854-CD450BB501FF}vendaDinheiroecf" count="10" timeout="0" stopOnError="3" stopOnException="2" description="">
