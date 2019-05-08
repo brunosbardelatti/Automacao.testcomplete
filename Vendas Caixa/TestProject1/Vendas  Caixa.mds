@@ -21,7 +21,7 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="NFC-e" key="{F13647B9-47E4-49E8-BB86-7C493B4C9B42}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+			<testItem name="NFC-e" key="{F13647B9-47E4-49E8-BB86-7C493B4C9B42}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
 				<testParameters />
 				<children>
 					<testItem name="VendaDinheiroNfce" key="{6A1773D6-0C89-4B12-8286-0192222CB0DD}" group="False" enabled="True" testMoniker="{69DF4100-9632-4900-A854-CD450BB501FF}vendaDinheiroNfce" count="5" timeout="0" stopOnError="3" stopOnException="2" description="">
@@ -46,14 +46,14 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="ECF" key="{5CF04FB1-6857-4C5F-B2DB-FFBECAFAA889}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
+			<testItem name="ECF" key="{5CF04FB1-6857-4C5F-B2DB-FFBECAFAA889}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="">
 				<testParameters />
 				<children>
-					<testItem name="VendaDinheiroECF" key="{B46182A9-CA5E-4427-83CE-D5E071B39EE4}" group="False" enabled="True" testMoniker="{69DF4100-9632-4900-A854-CD450BB501FF}vendaDinheiroecf" count="10" timeout="0" stopOnError="3" stopOnException="2" description="">
+					<testItem name="VendaDinheiroECF" key="{B46182A9-CA5E-4427-83CE-D5E071B39EE4}" group="False" enabled="True" testMoniker="{69DF4100-9632-4900-A854-CD450BB501FF}vendaDinheiroecf" count="3" timeout="0" stopOnError="3" stopOnException="2" description="">
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="VendaCrediarioECF" key="{DEAE2EB0-408F-4A40-9DD9-F4C0504647CB}" group="False" enabled="True" testMoniker="{69DF4100-9632-4900-A854-CD450BB501FF}vendaCrediarioecf" count="10" timeout="0" stopOnError="3" stopOnException="2" description="">
+					<testItem name="VendaCrediarioECF" key="{DEAE2EB0-408F-4A40-9DD9-F4C0504647CB}" group="False" enabled="True" testMoniker="{69DF4100-9632-4900-A854-CD450BB501FF}vendaCrediarioecf" count="3" timeout="0" stopOnError="3" stopOnException="2" description="">
 						<testParameters />
 						<children />
 					</testItem>
