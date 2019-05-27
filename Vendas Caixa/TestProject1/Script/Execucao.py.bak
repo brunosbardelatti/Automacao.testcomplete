@@ -9,7 +9,7 @@ def vendaDinheiroecf():
   
 def vendaCrediarioecf():
   LancarProduto.LancarProdutoSequencia()
-  FinalizadorECF.Crediarioecf()
+  finalizadorECF.Crediarioecf()
 
 def vendaDinheiroNfce():
   LancarProduto.LancarProdutoSequencia()

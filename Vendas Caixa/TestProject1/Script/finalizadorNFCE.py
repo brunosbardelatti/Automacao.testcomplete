@@ -3,7 +3,7 @@
   Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.edtConsoleInput.Keys("[F1]")
   Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.edtConsoleInput.Keys("[Enter]")
   Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.btnConfirmar.Keys("[Enter]")
-  Aliases.HiperPdv.dlgSalvarSa_daDeImpress_oComo.DUIViewWndClassName.Painel_do_Explorer.FloatNotifySink.ComboBox.Edit.Keys("[Esc]")
+  
 
 def debitoNfce():
   Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.txtEntradaDados.Keys("[F3]")
@@ -14,7 +14,6 @@ def debitoNfce():
   Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.edtConsoleInput.Keys("[Enter]")
   Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.edtConsoleInput.Keys("[Enter]")
   Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.btnConfirmar.Keys("[Enter]")
-  Aliases.HiperPdv.dlgSalvarSa_daDeImpress_oComo.DUIViewWndClassName.Painel_do_Explorer.FloatNotifySink.ComboBox.Edit.Keys("[Esc]")
   
 def CreditoNfce():
   Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.txtEntradaDados.Keys("[F3]")
@@ -25,8 +24,7 @@ def CreditoNfce():
   Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.edtConsoleInput.Keys("[Enter]")
   Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.edtConsoleInput.Keys("[Enter]")
   Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.btnConfirmar.Keys("[Enter]")
-  Aliases.HiperPdv.dlgSalvarSa_daDeImpress_oComo.DUIViewWndClassName.Painel_do_Explorer.FloatNotifySink.ComboBox.Edit.Keys("[Esc]")
-  
+ 
 def crediarioNfce():
   Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.txtEntradaDados.Keys("[F3]")
   Aliases.HiperPdv.HwndSource_MainWindow.MainWindow.TabPrincipal.edtConsoleInput.Keys("[F8]")
@@ -43,4 +41,3 @@ def crediarioNfce():
   if (Aliases.HiperPdv.HwndSource_BaseWindow.baseWindow.btnSim.Exists):
     Aliases.HiperPdv.HwndSource_BaseWindow.baseWindow.btnSim.ClickButton()
   Aliases.HiperPdv.HwndSource_BaseWindow2.BaseWindow.dgvPendencias.Datagridcell1.Keys("[F3]")
-  Aliases.HiperPdv.dlgSalvarSa_daDeImpress_oComo.DUIViewWndClassName.Painel_do_Explorer.FloatNotifySink.ComboBox.Edit.Keys("[Esc]")
