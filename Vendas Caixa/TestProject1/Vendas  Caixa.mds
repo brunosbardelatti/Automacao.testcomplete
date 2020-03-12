@@ -21,32 +21,32 @@
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="NFC-e" key="{F13647B9-47E4-49E8-BB86-7C493B4C9B42}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="NFC-e" key="{F13647B9-47E4-49E8-BB86-7C493B4C9B42}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
-					<testItem name="VendaDinheiroNfce" key="{6A1773D6-0C89-4B12-8286-0192222CB0DD}" group="False" enabled="True" testMoniker="{69DF4100-9632-4900-A854-CD450BB501FF}vendaDinheiroNfce" count="16" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="VendaDinheiroNfce" key="{6A1773D6-0C89-4B12-8286-0192222CB0DD}" group="False" enabled="True" testMoniker="{69DF4100-9632-4900-A854-CD450BB501FF}vendaDinheiroNfce" count="5" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="VendaDinheiroNfceCPF" key="{99B98696-1EA0-4CFC-B21B-D5F1461D9D82}" group="False" enabled="True" testMoniker="{69DF4100-9632-4900-A854-CD450BB501FF}vendaDinheiroNfceCpf" count="14" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="VendaDinheiroNfceCPF" key="{99B98696-1EA0-4CFC-B21B-D5F1461D9D82}" group="False" enabled="True" testMoniker="{69DF4100-9632-4900-A854-CD450BB501FF}vendaDinheiroNfceCpf" count="5" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="VendaCrediarioNfce" key="{687719E8-658D-449D-96DF-B62EEBF3CAD6}" group="False" enabled="True" testMoniker="{69DF4100-9632-4900-A854-CD450BB501FF}vendaCrediarioNfce" count="10" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="VendaCrediarioNfce" key="{687719E8-658D-449D-96DF-B62EEBF3CAD6}" group="False" enabled="True" testMoniker="{69DF4100-9632-4900-A854-CD450BB501FF}vendaCrediarioNfce" count="5" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="VendacartaoCreditoNfce" key="{4A5F7C87-7858-459A-9D6A-DA207C5C390B}" group="False" enabled="True" testMoniker="{69DF4100-9632-4900-A854-CD450BB501FF}vendaCreditoNfce" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="VendacartaoCreditoNfce" key="{4A5F7C87-7858-459A-9D6A-DA207C5C390B}" group="False" enabled="True" testMoniker="{69DF4100-9632-4900-A854-CD450BB501FF}vendaCreditoNfce" count="5" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children />
 					</testItem>
-					<testItem name="VendaCartaoDebitoNfce" key="{0695AEE6-4C65-4BBC-B434-13819A5EE65D}" group="False" enabled="True" testMoniker="{69DF4100-9632-4900-A854-CD450BB501FF}vendaDebitoNfce" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+					<testItem name="VendaCartaoDebitoNfce" key="{0695AEE6-4C65-4BBC-B434-13819A5EE65D}" group="False" enabled="True" testMoniker="{69DF4100-9632-4900-A854-CD450BB501FF}vendaDebitoNfce" count="5" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 						<testParameters />
 						<children />
 					</testItem>
 				</children>
 			</testItem>
-			<testItem name="ECF" key="{5CF04FB1-6857-4C5F-B2DB-FFBECAFAA889}" group="True" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+			<testItem name="ECF" key="{5CF04FB1-6857-4C5F-B2DB-FFBECAFAA889}" group="True" enabled="False" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
 				<testParameters />
 				<children>
 					<testItem name="VendaDinheiroECF" key="{B46182A9-CA5E-4427-83CE-D5E071B39EE4}" group="False" enabled="True" testMoniker="{69DF4100-9632-4900-A854-CD450BB501FF}vendaDinheiroecf" count="50" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
@@ -65,7 +65,7 @@
 		<data Version="3" />
 	</variables>
 	<settings key="{C3D73A3C-0B8A-4B4F-B8EE-2F14B472647E}">
-		<settingsVersion value="14.10" />
+		<settingsVersion value="14.20" />
 		<setting name="AgOpenApp_ExtendedSilverlightObjectTree" type="1" value="False" />
 		<setting name="ApplicationHangingProcessFilterMode" type="6" rowIndex="4" colIndex="0">
 			<columns>
@@ -86,6 +86,12 @@
 			<data />
 		</setting>
 		<setting name="ApplicationHangingTimeout" type="2" value="30000" />
+		<setting name="AzureDevOps_CollectionID" type="5" value="" />
+		<setting name="AzureDevOps_ProjectID" type="5" value="" />
+		<setting name="AzureDevOps_ServerName" type="5" value="" />
+		<setting name="AzureDevOps_TeamProject" type="5" value="" />
+		<setting name="AzureDevOps_TeamProjectCollection" type="5" value="" />
+		<setting name="AzureDevOps_URL" type="5" value="" />
 		<setting name="CLRBridge_PreferredApartmentModel" type="6" rowIndex="0" colIndex="0">
 			<columns>
 				<column type="5" enabled="True" />
@@ -668,6 +674,7 @@
 		<setting name="ZFJ_JiraPassword" type="5" value="" />
 		<setting name="ZFJ_JiraProject" type="5" value="" />
 		<setting name="ZFJ_JiraUrl" type="5" value="" />
+		<setting name="ZFJ_TestIssueTypeName" type="5" value="Test" />
 		<setting name="ZFJ_Version" type="5" value="" />
 		<setting name="ZFJ_ZephyrAccessKey" type="5" value="" />
 		<setting name="ZFJ_ZephyrSecretKey" type="5" value="" />
